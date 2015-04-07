@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java"/>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/elza/Documents/ricm4/2ndSemestre/Projet/Donsez/upnpcmd/externallibs/servicebinder.jar"/>
+	<classpathentry kind="lib" path="/home/elza/Documents/ricm4/2ndSemestre/Projet/Donsez/upnpcmd/externallibs/shell-interfaces.jar"/>
+	<classpathentry kind="lib" path="/home/elza/Bureau/Nouveau dossier/org.apache.felix.upnp.basedriver-0.8.0.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

@@ -1,0 +1,17 @@
+import org.openhab.core.library.types.*
+import org.openhab.core.persistence.*
+import org.openhab.model.script.actions.*
+
+
+rule "Actualisation"
+when 		
+	Time cron "0/5 0 * * * ?"
+	or Item DemoSwitch changed
+then
+	if(!DemoSwitch.changedSince(now.minusSeconds(5))) {
+		postUpdate(DemoSwitch,1)
+	}
+		
+	
+	
+end 

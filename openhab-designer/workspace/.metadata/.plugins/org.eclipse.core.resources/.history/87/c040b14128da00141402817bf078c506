@@ -1,0 +1,23 @@
+import org.openhab.core.library.types.*
+import org.openhab.core.persistence.*
+import org.openhab.model.script.actions.*
+
+
+rule "Actualisation"
+when 		
+	Time cron "0/1 * * * * ?"
+	
+then
+	
+	
+	if(gcamera.state.equals(1)  ) {
+		gcamera.postUpdate(0)
+		logInfo("PersistenceDemo2", "0")
+	}
+	else{
+		gcamera.postUpdate(1)
+	}
+	
+	
+	
+end 

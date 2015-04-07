@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>config</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.xtext.ui.shared.xtextNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>config</name>
+			<type>2</type>
+			<location>/home/elza/Documents/ricm4/2ndSemestre/Projet/projet4/openhab/configurations/</location>
+		</link>
+	</linkedResources>
+</projectDescription>

@@ -1,0 +1,719 @@
+2015-04-06 12:02:59.577 [WARN ] [o.config.core.ConfigDispatcher] - Cannot parse line 'sonos:openhabSonosDeviceID1.UDN' of main configuration file 'configurations/openhab_default.cfg'.
+2015-04-06 12:03:00.104 [WARN ] [o.config.core.ConfigDispatcher] - Main openHAB configuration file 'configurations/openhab.cfg' does not exist.
+2015-04-06 12:03:00.121 [INFO ] [.o.core.internal.CoreActivator] - openHAB runtime has been started (v1.6.1).
+2015-04-06 12:03:01.627 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - mDNS service has been started
+2015-04-06 12:03:02.598 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - Service Discovery initialization completed.
+2015-04-06 12:03:03.528 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2015-04-06 12:03:11.196 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.sitemap'
+2015-04-06 12:03:11.460 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.script'
+2015-04-06 12:03:11.564 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'exec.persist'
+2015-04-06 12:03:11.586 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'rrd4j.persist'
+2015-04-06 12:03:11.597 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'db4o.persist'
+2015-04-06 12:03:11.612 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'logging.persist'
+2015-04-06 12:03:11.643 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.items'
+2015-04-06 12:03:13.106 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Started Classic UI at /openhab.app
+2015-04-06 12:03:16.630 [INFO ] [penhab.io.rest.RESTApplication] - Stopped REST API
+2015-04-06 12:03:20.639 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Stopped Classic UI
+2015-04-06 12:03:30.933 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - Service Discovery initialization completed.
+2015-04-06 12:03:31.946 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Started Classic UI at /openhab.app
+2015-04-06 12:03:41.204 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.rules'
+2015-04-06 12:03:41.364 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.sitemap'
+2015-04-06 12:03:41.503 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.script'
+2015-04-06 12:03:41.611 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'exec.persist'
+2015-04-06 12:03:41.620 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'rrd4j.persist'
+2015-04-06 12:03:41.627 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'db4o.persist'
+2015-04-06 12:03:41.632 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'logging.persist'
+2015-04-06 12:03:41.668 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.items'
+2015-04-06 12:04:51.698 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Stopped Classic UI
+2015-04-06 12:08:35.730 [WARN ] [o.config.core.ConfigDispatcher] - Cannot parse line 'sonos:openhabSonosDeviceID1.UDN' of main configuration file 'configurations/openhab_default.cfg'.
+2015-04-06 12:08:36.002 [WARN ] [o.config.core.ConfigDispatcher] - Main openHAB configuration file 'configurations/openhab.cfg' does not exist.
+2015-04-06 12:08:36.005 [INFO ] [.o.core.internal.CoreActivator] - openHAB runtime has been started (v1.6.1).
+2015-04-06 12:08:36.717 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - mDNS service has been started
+2015-04-06 12:08:36.811 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - Service Discovery initialization completed.
+2015-04-06 12:08:38.139 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2015-04-06 12:08:46.506 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.sitemap'
+2015-04-06 12:08:46.689 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.script'
+2015-04-06 12:08:46.766 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'exec.persist'
+2015-04-06 12:08:46.776 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'rrd4j.persist'
+2015-04-06 12:08:46.784 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'db4o.persist'
+2015-04-06 12:08:46.789 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'logging.persist'
+2015-04-06 12:08:46.815 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.items'
+2015-04-06 12:08:47.277 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Started Classic UI at /openhab.app
+2015-04-06 12:08:51.015 [INFO ] [penhab.io.rest.RESTApplication] - Stopped REST API
+2015-04-06 12:08:55.025 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Stopped Classic UI
+2015-04-06 12:09:05.263 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - Service Discovery initialization completed.
+2015-04-06 12:09:06.244 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Started Classic UI at /openhab.app
+2015-04-06 12:09:15.552 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.rules'
+2015-04-06 12:09:15.701 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.sitemap'
+2015-04-06 12:09:15.839 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.script'
+2015-04-06 12:09:15.935 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'exec.persist'
+2015-04-06 12:09:15.948 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'rrd4j.persist'
+2015-04-06 12:09:15.955 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'db4o.persist'
+2015-04-06 12:09:15.961 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'logging.persist'
+2015-04-06 12:09:15.978 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.items'
+2015-04-06 12:31:42.032 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Stopped Classic UI
+2015-04-06 12:31:46.066 [WARN ] [o.config.core.ConfigDispatcher] - Cannot parse line 'sonos:openhabSonosDeviceID1.UDN' of main configuration file 'configurations/openhab_default.cfg'.
+2015-04-06 12:31:46.346 [WARN ] [o.config.core.ConfigDispatcher] - Main openHAB configuration file 'configurations/openhab.cfg' does not exist.
+2015-04-06 12:31:46.348 [INFO ] [.o.core.internal.CoreActivator] - openHAB runtime has been started (v1.6.1).
+2015-04-06 12:31:47.034 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - mDNS service has been started
+2015-04-06 12:31:47.120 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - Service Discovery initialization completed.
+2015-04-06 12:31:48.529 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2015-04-06 12:31:56.844 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.sitemap'
+2015-04-06 12:31:57.020 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.script'
+2015-04-06 12:31:57.125 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'exec.persist'
+2015-04-06 12:31:57.136 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'rrd4j.persist'
+2015-04-06 12:31:57.144 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'db4o.persist'
+2015-04-06 12:31:57.148 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'logging.persist'
+2015-04-06 12:31:57.171 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.items'
+2015-04-06 12:31:57.285 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Started Classic UI at /openhab.app
+2015-04-06 12:32:01.311 [INFO ] [penhab.io.rest.RESTApplication] - Stopped REST API
+2015-04-06 12:32:05.319 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Stopped Classic UI
+2015-04-06 12:32:15.595 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - Service Discovery initialization completed.
+2015-04-06 12:32:16.474 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Started Classic UI at /openhab.app
+2015-04-06 12:32:25.873 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.rules'
+2015-04-06 12:32:26.025 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.sitemap'
+2015-04-06 12:32:26.139 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.script'
+2015-04-06 12:32:26.229 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'exec.persist'
+2015-04-06 12:32:26.244 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'rrd4j.persist'
+2015-04-06 12:32:26.270 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'db4o.persist'
+2015-04-06 12:32:26.276 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'logging.persist'
+2015-04-06 12:32:26.283 [ERROR] [r.i.DefaultResourceDescription] - logging.persist (Aucun fichier ou dossier de ce type)
+java.io.FileNotFoundException: logging.persist (Aucun fichier ou dossier de ce type)
+	at java.io.FileInputStream.open(Native Method) ~[na:1.7.0_75]
+	at java.io.FileInputStream.<init>(FileInputStream.java:146) ~[na:1.7.0_75]
+	at org.eclipse.emf.ecore.resource.impl.FileURIHandlerImpl.createInputStream(FileURIHandlerImpl.java:99) ~[org.eclipse.emf.ecore_2.8.3.v20130125-0546.jar:na]
+	at org.eclipse.emf.ecore.resource.impl.ExtensibleURIConverterImpl.createInputStream(ExtensibleURIConverterImpl.java:354) ~[org.eclipse.emf.ecore_2.8.3.v20130125-0546.jar:na]
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1256) ~[org.eclipse.emf.ecore_2.8.3.v20130125-0546.jar:na]
+	at org.eclipse.xtext.resource.impl.DefaultResourceDescription.computeExportedObjects(DefaultResourceDescription.java:73) [org.eclipse.xtext_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.resource.impl.DefaultResourceDescription$4.get(DefaultResourceDescription.java:172) [org.eclipse.xtext_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.resource.impl.DefaultResourceDescription$4.get(DefaultResourceDescription.java:1) [org.eclipse.xtext_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.util.OnChangeEvictingCache.get(OnChangeEvictingCache.java:75) [org.eclipse.xtext.util_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.resource.impl.DefaultResourceDescription.getLookUp(DefaultResourceDescription.java:167) [org.eclipse.xtext_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.resource.impl.AbstractResourceDescription.getExportedObjects(AbstractResourceDescription.java:44) [org.eclipse.xtext_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.resource.impl.AbstractCompoundSelectable$4.apply(AbstractCompoundSelectable.java:66) [org.eclipse.xtext_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.resource.impl.AbstractCompoundSelectable$4.apply(AbstractCompoundSelectable.java:1) [org.eclipse.xtext_2.3.0.v201206120633.jar:na]
+	at com.google.common.collect.Iterators$8.next(Iterators.java:782) [com.google.guava_10.0.1.v201203051515.jar:na]
+	at com.google.common.collect.Iterables$3.next(Iterables.java:505) [com.google.guava_10.0.1.v201203051515.jar:na]
+	at com.google.common.collect.Iterables$3.next(Iterables.java:498) [com.google.guava_10.0.1.v201203051515.jar:na]
+	at com.google.common.collect.Iterators$5.hasNext(Iterators.java:540) [com.google.guava_10.0.1.v201203051515.jar:na]
+	at org.eclipse.xtext.common.types.access.impl.IndexedJvmTypeAccess.getIndexedJvmType(IndexedJvmTypeAccess.java:64) [org.eclipse.xtext.common.types_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.common.types.access.impl.IndexedJvmTypeAccess.getIndexedJvmType(IndexedJvmTypeAccess.java:53) [org.eclipse.xtext.common.types_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.common.types.access.impl.ClasspathTypeProvider.findTypeByName(ClasspathTypeProvider.java:77) [org.eclipse.xtext.common.types_2.3.0.v201206120633.jar:na]
+	at org.openhab.model.script.scoping.ScriptScopeProvider.createTypeFeatures(ScriptScopeProvider.java:75) [org.openhab.model.script_1.6.1.jar:na]
+	at org.openhab.model.script.scoping.ScriptScopeProvider.createSimpleFeatureCallScope(ScriptScopeProvider.java:65) [org.openhab.model.script_1.6.1.jar:na]
+	at org.eclipse.xtext.xbase.scoping.XbaseScopeProvider.createFeatureCallScope(XbaseScopeProvider.java:331) [org.eclipse.xtext.xbase_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.xbase.scoping.XbaseScopeProvider.getScope(XbaseScopeProvider.java:179) [org.eclipse.xtext.xbase_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.xbase.linking.XbaseLinkingScopeProvider.getScope(XbaseLinkingScopeProvider.java:42) [org.eclipse.xtext.xbase_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.linking.impl.DefaultLinkingService.getScope(DefaultLinkingService.java:59) [org.eclipse.xtext_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.linking.impl.DefaultLinkingService.getLinkedObjects(DefaultLinkingService.java:119) [org.eclipse.xtext_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.linking.lazy.LazyLinkingResource.getEObject(LazyLinkingResource.java:179) [org.eclipse.xtext_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.xbase.resource.XbaseResource.access$0(XbaseResource.java:1) [org.eclipse.xtext.xbase_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.xbase.resource.XbaseResource$2.exec(XbaseResource.java:239) [org.eclipse.xtext.xbase_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.xbase.resource.XbaseResource$2.exec(XbaseResource.java:1) [org.eclipse.xtext.xbase_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.util.OnChangeEvictingCache.execWithoutCacheClear(OnChangeEvictingCache.java:124) [org.eclipse.xtext.util_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.xbase.resource.XbaseResource.getEObject(XbaseResource.java:237) [org.eclipse.xtext.xbase_2.3.0.v201206120633.jar:na]
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.getEObject(ResourceSetImpl.java:223) [org.eclipse.emf.ecore_2.8.3.v20130125-0546.jar:na]
+	at org.eclipse.emf.ecore.util.EcoreUtil.resolve(EcoreUtil.java:197) [org.eclipse.emf.ecore_2.8.3.v20130125-0546.jar:na]
+	at org.eclipse.emf.ecore.util.EcoreUtil.resolve(EcoreUtil.java:257) [org.eclipse.emf.ecore_2.8.3.v20130125-0546.jar:na]
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eResolveProxy(BasicEObjectImpl.java:1473) [org.eclipse.emf.ecore_2.8.3.v20130125-0546.jar:na]
+	at org.eclipse.xtext.xbase.impl.XAbstractFeatureCallImpl.getFeature(XAbstractFeatureCallImpl.java:175) [org.eclipse.xtext.xbase_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.xbase.impl.XAbstractFeatureCallImpl.eGet(XAbstractFeatureCallImpl.java:434) [org.eclipse.xtext.xbase_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.xbase.impl.XFeatureCallImpl.eGet(XFeatureCallImpl.java:224) [org.eclipse.xtext.xbase_2.3.0.v201206120633.jar:na]
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1011) [org.eclipse.emf.ecore_2.8.3.v20130125-0546.jar:na]
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:1003) [org.eclipse.emf.ecore_2.8.3.v20130125-0546.jar:na]
+	at org.eclipse.emf.ecore.impl.BasicEObjectImpl.eGet(BasicEObjectImpl.java:998) [org.eclipse.emf.ecore_2.8.3.v20130125-0546.jar:na]
+	at org.eclipse.xtext.xbase.resource.XbaseResource.trackResolution(XbaseResource.java:202) [org.eclipse.xtext.xbase_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.xbase.resource.XbaseResource.getFeature(XbaseResource.java:187) [org.eclipse.xtext.xbase_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.xbase.resource.LinkingAssumptions.getFeature(LinkingAssumptions.java:120) [org.eclipse.xtext.xbase_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.xbase.impl.FeatureCallToJavaMapping.getFeature(FeatureCallToJavaMapping.java:60) [org.eclipse.xtext.xbase_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.xbase.impl.FeatureCallToJavaMapping.getActualReceiver(FeatureCallToJavaMapping.java:44) [org.eclipse.xtext.xbase_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:656) [org.eclipse.xtext.xbase_2.3.0.v201206120633.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_75]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_75]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_75]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_75]
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291) [org.eclipse.xtext.util_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218) [org.eclipse.xtext.xbase_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321) [org.eclipse.xtext.xbase_2.3.0.v201206120633.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_75]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_75]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_75]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_75]
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291) [org.eclipse.xtext.util_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218) [org.eclipse.xtext.xbase_2.3.0.v201206120633.jar:na]
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204) [org.eclipse.xtext.xbase_2.3.0.v201206120633.jar:na]
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59) [org.openhab.model.script_1.6.1.jar:na]
+	at org.openhab.model.rule.internal.engine.ExecuteRuleJob.execute(ExecuteRuleJob.java:55) [org.openhab.model.rule_1.6.1.jar:na]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213) [quartz-all-2.1.7.jar:na]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:557) [quartz-all-2.1.7.jar:na]
+2015-04-06 12:32:26.296 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.items'
+2015-04-06 12:39:08.935 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Stopped Classic UI
+2015-04-06 12:39:16.311 [WARN ] [o.config.core.ConfigDispatcher] - Cannot parse line 'sonos:openhabSonosDeviceID1.UDN' of main configuration file 'configurations/openhab_default.cfg'.
+2015-04-06 12:39:16.641 [WARN ] [o.config.core.ConfigDispatcher] - Main openHAB configuration file 'configurations/openhab.cfg' does not exist.
+2015-04-06 12:39:16.643 [INFO ] [.o.core.internal.CoreActivator] - openHAB runtime has been started (v1.6.1).
+2015-04-06 12:39:17.383 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - mDNS service has been started
+2015-04-06 12:39:17.505 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - Service Discovery initialization completed.
+2015-04-06 12:39:18.840 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2015-04-06 12:39:27.151 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.sitemap'
+2015-04-06 12:39:27.321 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.script'
+2015-04-06 12:39:27.395 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'exec.persist'
+2015-04-06 12:39:27.408 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'rrd4j.persist'
+2015-04-06 12:39:27.416 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'db4o.persist'
+2015-04-06 12:39:27.420 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'logging.persist'
+2015-04-06 12:39:27.445 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.items'
+2015-04-06 12:39:27.964 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Started Classic UI at /openhab.app
+2015-04-06 12:39:31.487 [INFO ] [penhab.io.rest.RESTApplication] - Stopped REST API
+2015-04-06 12:39:35.493 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Stopped Classic UI
+2015-04-06 12:39:46.254 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - Service Discovery initialization completed.
+2015-04-06 12:39:46.365 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.items'
+2015-04-06 12:39:46.473 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.sitemap'
+2015-04-06 12:39:46.893 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Started Classic UI at /openhab.app
+2015-04-06 12:39:56.625 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.rules'
+2015-04-06 12:39:56.804 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.script'
+2015-04-06 12:39:56.876 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'exec.persist'
+2015-04-06 12:39:56.891 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'rrd4j.persist'
+2015-04-06 12:39:56.898 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'db4o.persist'
+2015-04-06 12:39:56.902 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'logging.persist'
+2015-04-06 16:58:58.058 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 16:59:18.081 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 17:00:08.101 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 17:01:08.122 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 17:03:28.154 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 17:09:29.270 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Stopped Classic UI
+2015-04-06 17:14:42.556 [WARN ] [o.config.core.ConfigDispatcher] - Cannot parse line 'sonos:openhabSonosDeviceID1.UDN' of main configuration file 'configurations/openhab_default.cfg'.
+2015-04-06 17:14:42.885 [WARN ] [o.config.core.ConfigDispatcher] - Main openHAB configuration file 'configurations/openhab.cfg' does not exist.
+2015-04-06 17:14:42.887 [INFO ] [.o.core.internal.CoreActivator] - openHAB runtime has been started (v1.6.1).
+2015-04-06 17:14:43.595 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - mDNS service has been started
+2015-04-06 17:14:44.514 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - Service Discovery initialization completed.
+2015-04-06 17:14:45.113 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2015-04-06 17:14:53.337 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.sitemap'
+2015-04-06 17:14:53.509 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.script'
+2015-04-06 17:14:53.587 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'exec.persist'
+2015-04-06 17:14:53.597 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'rrd4j.persist'
+2015-04-06 17:14:53.605 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'db4o.persist'
+2015-04-06 17:14:53.609 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'logging.persist'
+2015-04-06 17:14:53.630 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.items'
+2015-04-06 17:14:54.762 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Started Classic UI at /openhab.app
+2015-04-06 17:14:57.997 [INFO ] [.o.io.habmin.HABminApplication] - Started HABmin REST API at /services/habmin
+2015-04-06 17:15:03.274 [INFO ] [.service.AbstractActiveService] - HTTP Refresh Service has been started
+2015-04-06 17:15:03.289 [INFO ] [.service.AbstractActiveService] - NTP Refresh Service has been started
+2015-04-06 17:15:03.429 [INFO ] [.z.internal.ZWaveActiveBinding] - ZWave 'updated' with null config
+2015-04-06 17:15:03.719 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.rules'
+2015-04-06 17:18:31.508 [INFO ] [penhab.io.rest.RESTApplication] - Stopped REST API
+2015-04-06 17:18:35.523 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Stopped Classic UI
+2015-04-06 17:18:35.528 [INFO ] [.o.io.habmin.HABminApplication] - Stopped HABmin REST API
+2015-04-06 17:18:48.380 [WARN ] [o.config.core.ConfigDispatcher] - Cannot parse line 'sonos:openhabSonosDeviceID1.UDN' of main configuration file 'configurations/openhab_default.cfg'.
+2015-04-06 17:18:48.656 [WARN ] [o.config.core.ConfigDispatcher] - Main openHAB configuration file 'configurations/openhab.cfg' does not exist.
+2015-04-06 17:18:48.659 [INFO ] [.o.core.internal.CoreActivator] - openHAB runtime has been started (v1.6.1).
+2015-04-06 17:18:49.364 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - mDNS service has been started
+2015-04-06 17:18:50.251 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - Service Discovery initialization completed.
+2015-04-06 17:18:50.926 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2015-04-06 17:18:59.095 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.sitemap'
+2015-04-06 17:18:59.270 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.script'
+2015-04-06 17:18:59.350 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'exec.persist'
+2015-04-06 17:18:59.361 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'rrd4j.persist'
+2015-04-06 17:18:59.369 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'db4o.persist'
+2015-04-06 17:18:59.373 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'logging.persist'
+2015-04-06 17:18:59.398 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.items'
+2015-04-06 17:19:00.461 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Started Classic UI at /openhab.app
+2015-04-06 17:19:03.690 [INFO ] [.o.io.habmin.HABminApplication] - Started HABmin REST API at /services/habmin
+2015-04-06 17:19:09.141 [INFO ] [.z.internal.ZWaveActiveBinding] - ZWave 'updated' with null config
+2015-04-06 17:19:09.160 [INFO ] [.service.AbstractActiveService] - NTP Refresh Service has been started
+2015-04-06 17:19:09.317 [INFO ] [.service.AbstractActiveService] - HTTP Refresh Service has been started
+2015-04-06 17:19:09.494 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.rules'
+2015-04-06 17:20:45.097 [INFO ] [penhab.io.rest.RESTApplication] - Stopped REST API
+2015-04-06 17:20:49.110 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Stopped Classic UI
+2015-04-06 17:20:49.113 [INFO ] [.o.io.habmin.HABminApplication] - Stopped HABmin REST API
+2015-04-06 17:21:01.560 [WARN ] [o.config.core.ConfigDispatcher] - Cannot parse line 'sonos:openhabSonosDeviceID1.UDN' of main configuration file 'configurations/openhab_default.cfg'.
+2015-04-06 17:21:01.843 [WARN ] [o.config.core.ConfigDispatcher] - Main openHAB configuration file 'configurations/openhab.cfg' does not exist.
+2015-04-06 17:21:01.848 [INFO ] [.o.core.internal.CoreActivator] - openHAB runtime has been started (v1.6.1).
+2015-04-06 17:21:02.592 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - mDNS service has been started
+2015-04-06 17:21:02.684 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - Service Discovery initialization completed.
+2015-04-06 17:21:04.254 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2015-04-06 17:21:12.305 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.sitemap'
+2015-04-06 17:21:12.495 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.script'
+2015-04-06 17:21:12.595 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'exec.persist'
+2015-04-06 17:21:12.606 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'rrd4j.persist'
+2015-04-06 17:21:12.614 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'db4o.persist'
+2015-04-06 17:21:12.618 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'logging.persist'
+2015-04-06 17:21:12.642 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.items'
+2015-04-06 17:21:12.798 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Started Classic UI at /openhab.app
+2015-04-06 17:21:17.045 [INFO ] [.o.io.habmin.HABminApplication] - Started HABmin REST API at /services/habmin
+2015-04-06 17:21:22.331 [INFO ] [.service.AbstractActiveService] - HTTP Refresh Service has been started
+2015-04-06 17:21:22.343 [INFO ] [.service.AbstractActiveService] - NTP Refresh Service has been started
+2015-04-06 17:21:22.485 [INFO ] [.z.internal.ZWaveActiveBinding] - ZWave 'updated' with null config
+2015-04-06 17:21:22.738 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.rules'
+2015-04-06 17:26:38.136 [INFO ] [penhab.io.rest.RESTApplication] - Stopped REST API
+2015-04-06 17:26:42.148 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Stopped Classic UI
+2015-04-06 17:26:42.152 [INFO ] [.o.io.habmin.HABminApplication] - Stopped HABmin REST API
+2015-04-06 17:27:12.103 [WARN ] [o.config.core.ConfigDispatcher] - Cannot parse line 'sonos:openhabSonosDeviceID1.UDN' of main configuration file 'configurations/openhab_default.cfg'.
+2015-04-06 17:27:12.405 [WARN ] [o.config.core.ConfigDispatcher] - Main openHAB configuration file 'configurations/openhab.cfg' does not exist.
+2015-04-06 17:27:12.407 [INFO ] [.o.core.internal.CoreActivator] - openHAB runtime has been started (v1.6.1).
+2015-04-06 17:27:13.104 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - mDNS service has been started
+2015-04-06 17:27:13.189 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - Service Discovery initialization completed.
+2015-04-06 17:27:14.802 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2015-04-06 17:27:22.902 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.sitemap'
+2015-04-06 17:27:23.087 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.script'
+2015-04-06 17:27:23.159 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'exec.persist'
+2015-04-06 17:27:23.169 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'rrd4j.persist'
+2015-04-06 17:27:23.178 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'db4o.persist'
+2015-04-06 17:27:23.182 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'logging.persist'
+2015-04-06 17:27:23.208 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.items'
+2015-04-06 17:27:23.333 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Started Classic UI at /openhab.app
+2015-04-06 17:27:27.560 [INFO ] [.o.io.habmin.HABminApplication] - Started HABmin REST API at /services/habmin
+2015-04-06 17:27:32.853 [INFO ] [.service.AbstractActiveService] - HTTP Refresh Service has been started
+2015-04-06 17:27:32.866 [INFO ] [.service.AbstractActiveService] - NTP Refresh Service has been started
+2015-04-06 17:27:32.937 [INFO ] [.z.internal.ZWaveActiveBinding] - ZWave 'updated' with null config
+2015-04-06 17:27:33.295 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.rules'
+2015-04-06 17:32:12.629 [INFO ] [penhab.io.rest.RESTApplication] - Stopped REST API
+2015-04-06 17:32:16.636 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Stopped Classic UI
+2015-04-06 17:32:16.637 [INFO ] [.o.io.habmin.HABminApplication] - Stopped HABmin REST API
+2015-04-06 17:32:19.848 [WARN ] [o.config.core.ConfigDispatcher] - Cannot parse line 'sonos:openhabSonosDeviceID1.UDN' of main configuration file 'configurations/openhab_default.cfg'.
+2015-04-06 17:32:20.145 [WARN ] [o.config.core.ConfigDispatcher] - Main openHAB configuration file 'configurations/openhab.cfg' does not exist.
+2015-04-06 17:32:20.148 [INFO ] [.o.core.internal.CoreActivator] - openHAB runtime has been started (v1.6.1).
+2015-04-06 17:32:20.859 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - mDNS service has been started
+2015-04-06 17:32:20.943 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - Service Discovery initialization completed.
+2015-04-06 17:32:22.383 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2015-04-06 17:32:30.658 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.sitemap'
+2015-04-06 17:32:30.861 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.script'
+2015-04-06 17:32:30.933 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'exec.persist'
+2015-04-06 17:32:30.943 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'rrd4j.persist'
+2015-04-06 17:32:30.951 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'db4o.persist'
+2015-04-06 17:32:30.955 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'logging.persist'
+2015-04-06 17:32:30.978 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.items'
+2015-04-06 17:32:31.220 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Started Classic UI at /openhab.app
+2015-04-06 17:32:35.177 [INFO ] [.o.io.habmin.HABminApplication] - Started HABmin REST API at /services/habmin
+2015-04-06 17:32:40.387 [INFO ] [.z.internal.ZWaveActiveBinding] - ZWave 'updated' with null config
+2015-04-06 17:32:40.435 [INFO ] [.service.AbstractActiveService] - HTTP Refresh Service has been started
+2015-04-06 17:32:40.452 [INFO ] [.service.AbstractActiveService] - NTP Refresh Service has been started
+2015-04-06 17:32:41.103 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.rules'
+2015-04-06 17:33:21.205 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 17:34:11.217 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 17:34:41.224 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 17:37:51.249 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.items'
+2015-04-06 17:38:51.258 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.items'
+2015-04-06 17:39:11.592 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.items'
+2015-04-06 17:40:11.713 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 17:40:31.774 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 17:41:01.798 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 17:41:31.824 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 17:43:51.862 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 17:44:21.910 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 17:44:41.951 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 17:46:41.988 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 17:47:32.029 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 17:48:22.061 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 17:48:52.102 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 17:49:04.729 [WARN ] [t.i.s.MapTransformationService] - Could not find a mapping for '-' in the file 'en.map'.
+2015-04-06 17:49:08.914 [WARN ] [e.jetty.servlet.ServletHandler] - /openhab.app
+org.openhab.ui.webapp.render.RenderException: Sitemap 'demo*' could not be found
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:114) ~[na:na]
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61) ~[na:na]
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128) ~[na:na]
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60) ~[na:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) ~[javax.servlet_3.0.0.v201112011016.jar:na]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598) ~[org.eclipse.jetty.servlet_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486) [org.eclipse.jetty.servlet_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413) [org.eclipse.jetty.servlet_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.Server.handle(Server.java:350) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:630) [org.eclipse.jetty.http_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230) [org.eclipse.jetty.http_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:606) [org.eclipse.jetty.io_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:46) [org.eclipse.jetty.io_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:603) [org.eclipse.jetty.util_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:538) [org.eclipse.jetty.util_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_75]
+2015-04-06 17:50:53.714 [WARN ] [i.s.ScaleTransformationService] - Scale transform can only work with numeric values, '-' is not 
+2015-04-06 17:50:58.893 [WARN ] [i.s.ScaleTransformationService] - Scale transform can only work with numeric values, '-' is not 
+2015-04-06 17:51:42.162 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 17:51:52.200 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 17:51:58.950 [WARN ] [i.s.ScaleTransformationService] - Scale transform can only work with numeric values, '-' is not 
+2015-04-06 17:51:59.462 [WARN ] [i.s.ScaleTransformationService] - Scale transform can only work with numeric values, '-' is not 
+2015-04-06 17:52:32.220 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.items'
+2015-04-06 17:52:42.313 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.items'
+2015-04-06 17:52:59.513 [WARN ] [i.s.ScaleTransformationService] - Scale transform can only work with numeric values, '-' is not 
+2015-04-06 17:54:52.433 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 17:58:52.483 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 17:59:02.493 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 17:59:09.953 [WARN ] [.o.u.w.i.render.SwitchRenderer] - Cannot determine item type of 'PANEL_CONNECTION'
+org.openhab.core.items.ItemNotFoundException: Item 'PANEL_CONNECTION' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:80) ~[na:na]
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:527) ~[na:na]
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:57) ~[org.openhab.ui.webapp_1.6.1.jar:na]
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:158) [org.openhab.ui.webapp_1.6.1.jar:na]
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:121) [org.openhab.ui.webapp_1.6.1.jar:na]
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:138) [org.openhab.ui.webapp_1.6.1.jar:na]
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processPage(PageRenderer.java:86) [org.openhab.ui.webapp_1.6.1.jar:na]
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:142) [org.openhab.ui.webapp_1.6.1.jar:na]
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61) [org.eclipse.equinox.http.servlet_1.1.300.v20120522-1841.jar:na]
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128) [org.eclipse.equinox.http.servlet_1.1.300.v20120522-1841.jar:na]
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60) [org.eclipse.equinox.http.servlet_1.1.300.v20120522-1841.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) [javax.servlet_3.0.0.v201112011016.jar:na]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598) [org.eclipse.jetty.servlet_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486) [org.eclipse.jetty.servlet_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413) [org.eclipse.jetty.servlet_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.Server.handle(Server.java:350) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:630) [org.eclipse.jetty.http_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230) [org.eclipse.jetty.http_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:606) [org.eclipse.jetty.io_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:46) [org.eclipse.jetty.io_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:603) [org.eclipse.jetty.util_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:538) [org.eclipse.jetty.util_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_75]
+2015-04-06 17:59:09.955 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_CONNECTION' for widget org.openhab.model.sitemap.Switch
+2015-04-06 17:59:09.955 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_CONNECTION' for widget org.openhab.model.sitemap.Switch
+2015-04-06 17:59:09.955 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_CONNECTION' for widget org.openhab.model.sitemap.Switch
+2015-04-06 17:59:09.955 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_MESSAGE' for widget org.openhab.model.sitemap.Text
+2015-04-06 17:59:09.955 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_MESSAGE' for widget org.openhab.model.sitemap.Text
+2015-04-06 17:59:09.956 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_COMMAND' for widget org.openhab.model.sitemap.Selection
+2015-04-06 17:59:09.956 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_COMMAND' for widget org.openhab.model.sitemap.Selection
+2015-04-06 17:59:09.957 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_COMMAND' for widget org.openhab.model.sitemap.Selection
+2015-04-06 17:59:09.957 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_TIME' for widget org.openhab.model.sitemap.Text
+2015-04-06 17:59:09.957 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_TIME' for widget org.openhab.model.sitemap.Text
+2015-04-06 17:59:09.957 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_TIME' for widget org.openhab.model.sitemap.Text
+2015-04-06 17:59:09.957 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PARTITION1_STATUS' for widget org.openhab.model.sitemap.Text
+2015-04-06 17:59:09.958 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PARTITION1_STATUS' for widget org.openhab.model.sitemap.Text
+2015-04-06 17:59:09.976 [WARN ] [e.jetty.servlet.ServletHandler] - /proxy
+java.lang.IllegalStateException: unsupported protocol: 'rstp'
+	at org.apache.commons.httpclient.protocol.Protocol.lazyRegisterProtocol(Protocol.java:149) ~[na:na]
+	at org.apache.commons.httpclient.protocol.Protocol.getProtocol(Protocol.java:117) ~[na:na]
+	at org.apache.commons.httpclient.HttpHost.<init>(HttpHost.java:107) ~[na:na]
+	at org.apache.commons.httpclient.HttpMethodBase.setURI(HttpMethodBase.java:280) ~[na:na]
+	at org.apache.commons.httpclient.HttpMethodBase.<init>(HttpMethodBase.java:220) ~[na:na]
+	at org.apache.commons.httpclient.methods.GetMethod.<init>(GetMethod.java:89) ~[na:na]
+	at org.openhab.ui.internal.proxy.ProxyServlet.doGet(ProxyServlet.java:186) ~[na:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735) ~[javax.servlet_3.0.0.v201112011016.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) ~[javax.servlet_3.0.0.v201112011016.jar:na]
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61) ~[na:na]
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128) ~[na:na]
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60) ~[na:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) ~[javax.servlet_3.0.0.v201112011016.jar:na]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598) ~[org.eclipse.jetty.servlet_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486) [org.eclipse.jetty.servlet_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413) [org.eclipse.jetty.servlet_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.Server.handle(Server.java:350) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:630) [org.eclipse.jetty.http_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230) [org.eclipse.jetty.http_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:606) [org.eclipse.jetty.io_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:46) [org.eclipse.jetty.io_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:603) [org.eclipse.jetty.util_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:538) [org.eclipse.jetty.util_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_75]
+2015-04-06 17:59:25.337 [WARN ] [.o.u.w.i.render.SwitchRenderer] - Cannot determine item type of 'PANEL_CONNECTION'
+org.openhab.core.items.ItemNotFoundException: Item 'PANEL_CONNECTION' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:80) ~[na:na]
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:527) ~[na:na]
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:57) ~[org.openhab.ui.webapp_1.6.1.jar:na]
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:158) [org.openhab.ui.webapp_1.6.1.jar:na]
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:121) [org.openhab.ui.webapp_1.6.1.jar:na]
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:138) [org.openhab.ui.webapp_1.6.1.jar:na]
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processPage(PageRenderer.java:86) [org.openhab.ui.webapp_1.6.1.jar:na]
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:142) [org.openhab.ui.webapp_1.6.1.jar:na]
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61) [org.eclipse.equinox.http.servlet_1.1.300.v20120522-1841.jar:na]
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128) [org.eclipse.equinox.http.servlet_1.1.300.v20120522-1841.jar:na]
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60) [org.eclipse.equinox.http.servlet_1.1.300.v20120522-1841.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) [javax.servlet_3.0.0.v201112011016.jar:na]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598) [org.eclipse.jetty.servlet_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486) [org.eclipse.jetty.servlet_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413) [org.eclipse.jetty.servlet_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.Server.handle(Server.java:350) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:630) [org.eclipse.jetty.http_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230) [org.eclipse.jetty.http_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:606) [org.eclipse.jetty.io_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:46) [org.eclipse.jetty.io_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:603) [org.eclipse.jetty.util_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:538) [org.eclipse.jetty.util_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_75]
+2015-04-06 17:59:25.338 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_CONNECTION' for widget org.openhab.model.sitemap.Switch
+2015-04-06 17:59:25.338 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_CONNECTION' for widget org.openhab.model.sitemap.Switch
+2015-04-06 17:59:25.339 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_CONNECTION' for widget org.openhab.model.sitemap.Switch
+2015-04-06 17:59:25.339 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_MESSAGE' for widget org.openhab.model.sitemap.Text
+2015-04-06 17:59:25.339 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_MESSAGE' for widget org.openhab.model.sitemap.Text
+2015-04-06 17:59:25.339 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_COMMAND' for widget org.openhab.model.sitemap.Selection
+2015-04-06 17:59:25.340 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_COMMAND' for widget org.openhab.model.sitemap.Selection
+2015-04-06 17:59:25.340 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_COMMAND' for widget org.openhab.model.sitemap.Selection
+2015-04-06 17:59:25.340 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_TIME' for widget org.openhab.model.sitemap.Text
+2015-04-06 17:59:25.340 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_TIME' for widget org.openhab.model.sitemap.Text
+2015-04-06 17:59:25.340 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_TIME' for widget org.openhab.model.sitemap.Text
+2015-04-06 17:59:25.341 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PARTITION1_STATUS' for widget org.openhab.model.sitemap.Text
+2015-04-06 17:59:25.341 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PARTITION1_STATUS' for widget org.openhab.model.sitemap.Text
+2015-04-06 17:59:25.358 [WARN ] [e.jetty.servlet.ServletHandler] - /proxy
+java.lang.IllegalStateException: unsupported protocol: 'rstp'
+	at org.apache.commons.httpclient.protocol.Protocol.lazyRegisterProtocol(Protocol.java:149) ~[na:na]
+	at org.apache.commons.httpclient.protocol.Protocol.getProtocol(Protocol.java:117) ~[na:na]
+	at org.apache.commons.httpclient.HttpHost.<init>(HttpHost.java:107) ~[na:na]
+	at org.apache.commons.httpclient.HttpMethodBase.setURI(HttpMethodBase.java:280) ~[na:na]
+	at org.apache.commons.httpclient.HttpMethodBase.<init>(HttpMethodBase.java:220) ~[na:na]
+	at org.apache.commons.httpclient.methods.GetMethod.<init>(GetMethod.java:89) ~[na:na]
+	at org.openhab.ui.internal.proxy.ProxyServlet.doGet(ProxyServlet.java:186) ~[na:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735) ~[javax.servlet_3.0.0.v201112011016.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) ~[javax.servlet_3.0.0.v201112011016.jar:na]
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61) ~[na:na]
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128) ~[na:na]
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60) ~[na:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) ~[javax.servlet_3.0.0.v201112011016.jar:na]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598) ~[org.eclipse.jetty.servlet_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486) [org.eclipse.jetty.servlet_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413) [org.eclipse.jetty.servlet_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.Server.handle(Server.java:350) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:630) [org.eclipse.jetty.http_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230) [org.eclipse.jetty.http_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:606) [org.eclipse.jetty.io_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:46) [org.eclipse.jetty.io_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:603) [org.eclipse.jetty.util_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:538) [org.eclipse.jetty.util_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_75]
+2015-04-06 17:59:38.210 [WARN ] [.o.u.w.i.render.SwitchRenderer] - Cannot determine item type of 'PANEL_CONNECTION'
+org.openhab.core.items.ItemNotFoundException: Item 'PANEL_CONNECTION' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:80) ~[na:na]
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:527) ~[na:na]
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:57) ~[org.openhab.ui.webapp_1.6.1.jar:na]
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:158) [org.openhab.ui.webapp_1.6.1.jar:na]
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:121) [org.openhab.ui.webapp_1.6.1.jar:na]
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:138) [org.openhab.ui.webapp_1.6.1.jar:na]
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processPage(PageRenderer.java:86) [org.openhab.ui.webapp_1.6.1.jar:na]
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:142) [org.openhab.ui.webapp_1.6.1.jar:na]
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61) [org.eclipse.equinox.http.servlet_1.1.300.v20120522-1841.jar:na]
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128) [org.eclipse.equinox.http.servlet_1.1.300.v20120522-1841.jar:na]
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60) [org.eclipse.equinox.http.servlet_1.1.300.v20120522-1841.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) [javax.servlet_3.0.0.v201112011016.jar:na]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598) [org.eclipse.jetty.servlet_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486) [org.eclipse.jetty.servlet_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413) [org.eclipse.jetty.servlet_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.Server.handle(Server.java:350) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:630) [org.eclipse.jetty.http_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230) [org.eclipse.jetty.http_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:606) [org.eclipse.jetty.io_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:46) [org.eclipse.jetty.io_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:603) [org.eclipse.jetty.util_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:538) [org.eclipse.jetty.util_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_75]
+2015-04-06 17:59:38.212 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_CONNECTION' for widget org.openhab.model.sitemap.Switch
+2015-04-06 17:59:38.212 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_CONNECTION' for widget org.openhab.model.sitemap.Switch
+2015-04-06 17:59:38.213 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_CONNECTION' for widget org.openhab.model.sitemap.Switch
+2015-04-06 17:59:38.213 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_MESSAGE' for widget org.openhab.model.sitemap.Text
+2015-04-06 17:59:38.214 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_MESSAGE' for widget org.openhab.model.sitemap.Text
+2015-04-06 17:59:38.214 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_COMMAND' for widget org.openhab.model.sitemap.Selection
+2015-04-06 17:59:38.215 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_COMMAND' for widget org.openhab.model.sitemap.Selection
+2015-04-06 17:59:38.215 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_COMMAND' for widget org.openhab.model.sitemap.Selection
+2015-04-06 17:59:38.216 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_TIME' for widget org.openhab.model.sitemap.Text
+2015-04-06 17:59:38.216 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_TIME' for widget org.openhab.model.sitemap.Text
+2015-04-06 17:59:38.217 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PANEL_TIME' for widget org.openhab.model.sitemap.Text
+2015-04-06 17:59:38.218 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PARTITION1_STATUS' for widget org.openhab.model.sitemap.Text
+2015-04-06 17:59:38.218 [ERROR] [o.u.i.items.ItemUIRegistryImpl] - Cannot retrieve item 'PARTITION1_STATUS' for widget org.openhab.model.sitemap.Text
+2015-04-06 17:59:38.236 [WARN ] [e.jetty.servlet.ServletHandler] - /proxy
+java.lang.IllegalStateException: unsupported protocol: 'rstp'
+	at org.apache.commons.httpclient.protocol.Protocol.lazyRegisterProtocol(Protocol.java:149) ~[na:na]
+	at org.apache.commons.httpclient.protocol.Protocol.getProtocol(Protocol.java:117) ~[na:na]
+	at org.apache.commons.httpclient.HttpHost.<init>(HttpHost.java:107) ~[na:na]
+	at org.apache.commons.httpclient.HttpMethodBase.setURI(HttpMethodBase.java:280) ~[na:na]
+	at org.apache.commons.httpclient.HttpMethodBase.<init>(HttpMethodBase.java:220) ~[na:na]
+	at org.apache.commons.httpclient.methods.GetMethod.<init>(GetMethod.java:89) ~[na:na]
+	at org.openhab.ui.internal.proxy.ProxyServlet.doGet(ProxyServlet.java:186) ~[na:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735) ~[javax.servlet_3.0.0.v201112011016.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) ~[javax.servlet_3.0.0.v201112011016.jar:na]
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61) ~[na:na]
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128) ~[na:na]
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60) ~[na:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) ~[javax.servlet_3.0.0.v201112011016.jar:na]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598) ~[org.eclipse.jetty.servlet_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486) [org.eclipse.jetty.servlet_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413) [org.eclipse.jetty.servlet_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.Server.handle(Server.java:350) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:630) [org.eclipse.jetty.http_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230) [org.eclipse.jetty.http_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:606) [org.eclipse.jetty.io_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:46) [org.eclipse.jetty.io_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:603) [org.eclipse.jetty.util_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:538) [org.eclipse.jetty.util_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_75]
+2015-04-06 18:00:32.517 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 18:02:22.543 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.items'
+2015-04-06 18:02:32.660 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.items'
+2015-04-06 18:03:02.750 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.items'
+2015-04-06 18:04:52.880 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.items'
+2015-04-06 18:05:52.989 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 18:06:00.309 [WARN ] [c.internal.ModelRepositoryImpl] - Configuration model 'demo.sitemap' is either empty or cannot be parsed correctly!
+2015-04-06 18:06:00.313 [WARN ] [e.jetty.servlet.ServletHandler] - /openhab.app
+org.openhab.ui.webapp.render.RenderException: Sitemap 'demo' could not be found
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:114) ~[na:na]
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61) ~[na:na]
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128) ~[na:na]
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60) ~[na:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) ~[javax.servlet_3.0.0.v201112011016.jar:na]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598) ~[org.eclipse.jetty.servlet_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486) [org.eclipse.jetty.servlet_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413) [org.eclipse.jetty.servlet_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.Server.handle(Server.java:350) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:630) [org.eclipse.jetty.http_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230) [org.eclipse.jetty.http_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:606) [org.eclipse.jetty.io_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:46) [org.eclipse.jetty.io_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:603) [org.eclipse.jetty.util_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:538) [org.eclipse.jetty.util_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_75]
+2015-04-06 18:06:53.005 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.sitemap'
+2015-04-06 18:07:13.033 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.items'
+2015-04-06 18:08:33.112 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.items'
+2015-04-06 18:08:43.214 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.items'
+2015-04-06 18:09:13.326 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.items'
+2015-04-06 18:10:13.474 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.items'
+2015-04-06 18:10:53.578 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.items'
+2015-04-06 18:11:13.635 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 18:11:43.653 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 18:11:53.678 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 18:13:43.716 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.items'
+2015-04-06 18:15:13.821 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 18:15:23.836 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 18:17:23.873 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 18:17:43.901 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 18:18:11.349 [WARN ] [t.i.s.MapTransformationService] - Could not find a mapping for '-' in the file 'en.map'.
+2015-04-06 18:19:53.939 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 18:21:43.978 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 18:21:54.009 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 18:22:34.044 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 18:22:54.077 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 18:23:04.122 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 18:23:14.165 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 18:23:24.204 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 18:23:34.232 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 18:23:54.263 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 18:24:04.292 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 18:24:14.318 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.items'
+2015-04-06 18:24:34.461 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 18:24:54.491 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 18:26:34.525 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 18:27:54.558 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 18:27:57.465 [WARN ] [e.jetty.servlet.ServletHandler] - /openhab.app
+org.openhab.ui.webapp.render.RenderException: Sitemap 'demo*' could not be found
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:114) ~[na:na]
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61) ~[na:na]
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128) ~[na:na]
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60) ~[na:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) ~[javax.servlet_3.0.0.v201112011016.jar:na]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598) ~[org.eclipse.jetty.servlet_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486) [org.eclipse.jetty.servlet_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413) [org.eclipse.jetty.servlet_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.Server.handle(Server.java:350) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:630) [org.eclipse.jetty.http_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230) [org.eclipse.jetty.http_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77) [org.eclipse.jetty.server_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:606) [org.eclipse.jetty.io_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:46) [org.eclipse.jetty.io_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:603) [org.eclipse.jetty.util_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:538) [org.eclipse.jetty.util_8.1.3.v20120522.jar:8.1.3.v20120522]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_75]
+2015-04-06 18:34:30.419 [WARN ] [t.i.s.MapTransformationService] - Could not find a mapping for '-' in the file 'en.map'.
+2015-04-06 18:34:33.601 [WARN ] [t.i.s.MapTransformationService] - Could not find a mapping for '-' in the file 'en.map'.
+2015-04-06 18:34:34.121 [WARN ] [t.i.s.MapTransformationService] - Could not find a mapping for '-' in the file 'en.map'.
+2015-04-06 18:39:34.641 [INFO ] [c.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2015-04-06 18:48:21.477 [INFO ] [penhab.io.rest.RESTApplication] - Stopped REST API
+2015-04-06 18:48:25.491 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Stopped Classic UI
+2015-04-06 18:48:25.494 [INFO ] [.o.io.habmin.HABminApplication] - Stopped HABmin REST API

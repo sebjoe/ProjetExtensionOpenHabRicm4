@@ -1,0 +1,66 @@
+sitemap demo label="Main Menu"
+
+{
+		
+	Frame label="Administraion"{
+		
+	}
+	
+	Frame label="Unknown Object"{
+//		Video item=gcamera url="http://192.168.1.56:88"
+//		Video item=gcamera url="rstp://192.168.1.56:554/live1.sdp" 
+//		Video item=gcamera url="http://192.168.1.56/mjpg/video.mjpg?camera=1"
+//		
+//		Video item=gcamera url="http://192.168.1.56" encoding="mjpeg"
+//		Video item=gcamera url="rstp://192.168.1.56:554/live1.sdp" encoding="mjpeg"
+//		Video item=gcamera url="http://192.168.1.56/mjpg/video.mjpg?camera=1" encoding="mjpeg"
+//		
+//		Image item=gcamera url="http://192.168.1.56" refresh=1000
+//		Webview item=gcamera url="http://192.168.1.56/video.cgi" height=25
+//		
+//		Video item=gcamera url="/dms?nowprofileid=1&"
+//		Webview item=gcamera url="/dms?nowprofileid=1&"
+//		
+//		Video item=gcamera url="http://192.168.1.56/dms?nowprofileid=1&"
+//		Webview item=gcamera url="http://192.168.1.56/dms?nowprofileid=1&" height=25 
+//		
+//		Webview item=gcamera url="http://192.168.1.56/dms?nowprofileid=1" height=25 
+//		
+//		Image item=gcamera  url="http://192.168.1.56/dms?nowprofileid=1" refresh=1000
+//		
+//		Image  item=gcamera url="http://192.168.1.56/dms?" refresh=1000
+//		
+//		Image item=gcamera url="http://192.168.1.56/common.js?2.1.25:4593" refresh=1000
+//		
+//		Video item=gcamera url="http://192.168.1.56/dms?nowprofileid=1:554/live1.sdp" encoding="mjpg"
+//		Video item=gcamera url="http://192.168.1.56/dms?nowprofileid=1:4593/live1.sdp" 
+//		
+//		
+//		Video item=gcamera url="http://192.168.1.56/common.js?2.1.25:4593" 
+//		
+//		Video item=gcamera url="rstp://192.168.1.56/common.js?2.1.25:4593" 
+//		Video item=gcamera url="http://192.168.1.56/video1.mjpg"
+//		
+//		
+//		Video item=gcamera url="http://192.168.1.56:80/dms/video1.mjpeg" 
+//		
+		
+		//Webview url="http://192.168.1.56/video1.mjpg"
+		
+		
+		//Image  url="http://192.168.1.56/video1.mjpg"
+		
+		Video  url="http://192.168.1.56/video1.mjpg" encoding="mjpg"
+		//Video  url="http://192.168.1.56/video1.m4v" encoding="mjpeg"
+		//Webview  item=gcamera url="http://192.168.1.56/dms?" height=25 
+				
+		
+		Webview url="http://192.168.1.56/" height=25
+		
+	}
+	 
+	
+	
+}
+
+

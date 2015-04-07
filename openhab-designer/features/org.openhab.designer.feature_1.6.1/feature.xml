@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright (c) 2010-2014, openHAB.org and others.
+
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Eclipse Public License v1.0
+    which accompanies this distribution, and is available at
+    http://www.eclipse.org/legal/epl-v10.html
+
+-->
+<feature
+      id="org.openhab.designer.feature"
+      label="openHAB Designer"
+      version="1.6.1"
+      provider-name="openHAB.org"
+      plugin="org.openhab.designer.core">
+
+   <description>
+      This features defines all bundles that form the openHAB designer.
+   </description>
+
+   <copyright>
+      Copyright (c) 2010-2014, openHAB.org &lt;admin@openhab.org&gt;
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.xtext.ui"
+         version="2.3.1.v201208210947"/>
+
+   <includes
+         id="org.eclipse.platform"
+         version="4.2.1.v20130118-173121-9MF7GHYdG0B5kx4E_SkfZV-1mNjVATf67ZAb7"/>
+
+   <includes
+         id="org.eclipse.jdt"
+         version="3.8.2.v20130116-090414-8-8nFu3FNOfwKLRuqgXKIy9z0I83"/>
+
+   <includes
+         id="org.eclipse.emf.codegen"
+         version="2.8.0.v20130125-0826"/>
+
+   <includes
+         id="org.eclipse.emf.mwe2.runtime.sdk"
+         version="2.3.0.v201206110920"/>
+
+   <includes
+         id="org.eclipse.emf.ecore.edit"
+         version="2.8.0.v20130125-0826"/>
+
+   <includes
+         id="org.eclipse.emf.edit"
+         version="2.8.0.v20130125-0826"/>
+
+   <includes
+         id="org.eclipse.xtext.runtime"
+         version="2.3.0.v201206120633"/>
+
+   <includes
+         id="org.eclipse.emf.ecore"
+         version="2.8.3.v20130125-0546"/>
+
+   <includes
+         id="org.eclipse.emf.edit.ui"
+         version="2.8.0.v20130125-0826"/>
+
+   <includes
+         id="org.eclipse.emf.common.ui"
+         version="2.7.0.v20130125-0826"/>
+
+   <includes
+         id="org.eclipse.emf.common"
+         version="2.8.0.v20130125-0546"/>
+
+   <includes
+         id="org.eclipse.xtext.xbase"
+         version="2.3.0.v201206120633"/>
+
+   <requires>
+      <import plugin="org.apache.commons.lang"/>
+      <import plugin="org.eclipse.osgi"/>
+      <import plugin="org.eclipse.osgi.services"/>
+      <import plugin="org.slf4j.api"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.jdt.core"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.apache.commons.io"/>
+      <import plugin="org.eclipse.emf.common"/>
+      <import plugin="org.eclipse.emf.ecore"/>
+      <import plugin="org.eclipse.xtext"/>
+      <import plugin="org.eclipse.xtext.util"/>
+      <import plugin="org.antlr.runtime"/>
+      <import plugin="org.eclipse.xtext.ui"/>
+      <import plugin="org.eclipse.ui.editors" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.xtext.ui.shared"/>
+      <import plugin="org.eclipse.xtext.builder"/>
+      <import plugin="org.eclipse.ui.ide" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.apache.commons.collections"/>
+      <import plugin="org.slf4j.jul"/>
+      <import plugin="org.slf4j.log4j"/>
+      <import plugin="javax.mail"/>
+      <import plugin="org.apache.commons.httpclient"/>
+      <import plugin="org.eclipse.xtext.common.types.ui"/>
+      <import plugin="org.eclipse.compare"/>
+      <import plugin="org.eclipse.xtext.ui.codetemplates.ui"/>
+      <import plugin="org.eclipse.xtext.xbase.ui"/>
+      <import plugin="org.slf4j.jcl"/>
+      <import plugin="org.eclipse.xtext.xbase.lib"/>
+      <import plugin="org.openhab.core.transform"/>
+      <import plugin="org.eclipse.xtext.common.types"/>
+      <import plugin="org.eclipse.xtext.xbase"/>
+   </requires>
+
+   <plugin
+         id="org.openhab.core"
+         download-size="43"
+         install-size="73"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.core.library"
+         download-size="36"
+         install-size="65"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.designer.core"
+         download-size="206"
+         install-size="754"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.designer.ui"
+         download-size="48"
+         install-size="68"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.model.core"
+         download-size="16"
+         install-size="25"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.model.item"
+         download-size="171"
+         install-size="437"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.model.item.ui"
+         download-size="57"
+         install-size="168"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.model.sitemap"
+         download-size="1063"
+         install-size="3036"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.model.sitemap.ui"
+         download-size="343"
+         install-size="1404"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.config.core"
+         download-size="10"
+         install-size="16"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.io.console"
+         download-size="11"
+         install-size="18"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.io.multimedia"
+         download-size="107"
+         install-size="124"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.io.net"
+         download-size="24"
+         install-size="40"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.model.rule.ui"
+         download-size="281"
+         install-size="1230"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.model.rule"
+         download-size="282"
+         install-size="911"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.model.script"
+         download-size="238"
+         install-size="754"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.model.script.ui"
+         download-size="251"
+         install-size="1081"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.core.transform"
+         download-size="153"
+         install-size="184"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.core.scriptengine"
+         download-size="10"
+         install-size="15"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.core.autoupdate"
+         download-size="9"
+         install-size="12"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.library.tel"
+         download-size="6"
+         install-size="7"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.core.persistence"
+         download-size="505"
+         install-size="615"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.model.persistence"
+         download-size="229"
+         install-size="600"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.model.persistence.ui"
+         download-size="61"
+         install-size="227"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.action.mail"
+         download-size="37"
+         install-size="42"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.action.nma"
+         download-size="9"
+         install-size="14"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.action.prowl"
+         download-size="58"
+         install-size="66"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.action.pushover"
+         download-size="11"
+         install-size="21"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.action.squeezebox"
+         download-size="12"
+         install-size="21"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.action.twitter"
+         download-size="272"
+         install-size="297"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.action.xbmc"
+         download-size="6"
+         install-size="7"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.action.xmpp"
+         download-size="760"
+         install-size="869"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.action.xpl"
+         download-size="6"
+         install-size="9"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.openhab.action.homematic"
+         download-size="6"
+         install-size="8"
+         version="1.6.1"
+         unpack="false"/>
+
+     <plugin
+           id="org.openhab.action.openwebif"
+           download-size="20"
+           install-size="33"
+           version="1.6.1"
+           unpack="false"/>
+
+</feature>

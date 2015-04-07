@@ -1,0 +1,328 @@
+sitemap demo label="Main Menu"
+
+{
+	/*
+	Frame {
+		Group item=gFF label="First Floor" icon="firstfloor"
+		Group item=gGF label="Ground Floor" icon="groundfloor"
+		Group item=gC label="Cellar" icon="cellar"	
+		Group item=Outdoor icon="garden" 
+	}
+	Frame label="Weather" {
+		Text item=Weather_Temperature valuecolor=[Weather_LastUpdate=="Uninitialized"="lightgray",Weather_LastUpdate>90="lightgray",>25="orange",>15="green",>5="orange",<=5="blue"] {
+			Frame {
+				Text item=Weather_Temp_Max valuecolor=[>25="orange",>15="green",>5="orange",<=5="blue"]
+				Text item=Weather_Temp_Min valuecolor=[>25="orange",>15="green",>5="orange",<=5="blue"]
+				Text item=Weather_Humidity
+				Text item=Weather_Humidex
+				Text item=Weather_LastUpdate visibility=[Weather_LastUpdate>30] valuecolor=[Weather_LastUpdate>120="orange", Weather_LastUpdate>300="red"]
+			}
+			Frame {
+				Switch item=Weather_Chart_Period label="Chart Period" mappings=[0="Hour", 1="Day", 2="Week"]
+				Chart item=Weather_Chart period=h refresh=6000 visibility=[Weather_Chart_Period==0, Weather_Chart_Period=="Uninitialized"]
+				Chart item=Weather_Chart period=D refresh=30000 visibility=[Weather_Chart_Period==1]
+				Chart item=Weather_Chart period=W refresh=30000 visibility=[Weather_Chart_Period==2]
+			}
+		}
+	}
+	Frame label="Date" {
+		Text item=Date
+	}
+	Frame label="Demo" {
+		Text label="Group Demo" icon="firstfloor" {
+			Switch item=Lights mappings=[OFF="All Off"]
+			Group item=Heating
+			Group item=Windows
+			Text item=Temperature
+		}
+		Text label="Widget Overview" icon="chart" {
+			Frame label="Binary Widgets" {
+				Switch item=DemoSwitch label="Toggle Switch"
+				Switch item=DemoSwitch label="Button Switch" mappings=[ON="On"]
+			}
+			Frame label="Discrete Widgets" {
+				Selection item=Scene_General label="Scene Selection" mappings=[0=off, 1=TV, 2=Dinner, 3=Reading]
+				Switch item=Scene_General label="Scene" mappings=[1=TV, 2=Dinner, 3=Reading]
+				Setpoint item=Temperature_Setpoint minValue=16 maxValue=28 step=0.5
+			}
+			Frame label="Percent-based Widgets" {
+				Slider item=DimmedLight switchSupport
+				Colorpicker item=RGBLight icon="slider"
+				Switch item=DemoShutter
+				Slider item=DemoBlinds
+			}
+		}
+		Text label="Multimedia" icon="video" {
+			Frame label="Radio Control" {
+				Selection item=Radio_Station mappings=[0=off, 1=HR3, 2=SWR3, 3=FFH]
+				Slider item=Volume
+			}
+			Frame label="Multimedia Widgets" {
+				Image url="http://localhost:8080/images/splash-ipad-h.png" label="openHAB" {
+					Text label="http://www.openHAB.org" icon="icon"
+				}
+				Video url="http://demo.openhab.org/Hue.m4v"
+				Webview url="http://heise-online.mobi/" height=8
+			}
+		}
+	}
+	
+	*/
+	 
+	Frame label="Camera"{
+		Webview url="http://192.168.1.56/" height=8
+	}
+	
+	
+	Group DSCAlarm
+Group DSCAlarmPanel (DSCAlarm)
+Group DSCAlarmPartitions (DSCAlarm)
+Group DSCAlarmZones (DSCAlarm)
+Group DSCAlarmKeypads (DSCAlarm)
+
+/* DSC Alarm Items */
+
+/* DSC Alarm Panel Items */
+Number PANEL_CONNECTION "Panel Connected: [%d]" (DSCAlarmPanel) {dscalarm="panel:panel_connection"}
+Number PANEL_COMMAND "Panel Commands" (DSCAlarmPanel) {dscalarm="panel:panel_command"}
+String PANEL_MESSAGE "Panel Message: [%s]" <"shield-1"> (DSCAlarmPanel) {dscalarm="panel:panel_message"}
+String PANEL_SYSTEM_ERROR "Panel System Error: [%s]" <"shield-1"> (DSCAlarmPanel) {dscalarm="panel:panel_system_error"}
+
+DateTime PANEL_TIME "Panel Time [%1$tA, %1$tm/%1$td/%1$tY %1tT]" <calendar> (DSCAlarmPanel) {dscalarm="panel:panel_time"}
+Switch PANEL_TIME_STAMP (DSCAlarmPanel) {dscalarm="panel:panel_time_stamp"}
+Switch PANEL_TIME_BROADCAST (DSCAlarmPanel) {dscalarm="panel:panel_time_broadcast"}
+
+Switch PANEL_FIRE_KEY_ALARM (DSCAlarmPanel) {dscalarm="panel:panel_fire_key_alarm"}
+Switch PANEL_PANIC_KEY_ALARM (DSCAlarmPanel) {dscalarm="panel:panel_panic_key_alarm"}
+Switch PANEL_AUX_KEY_ALARM (DSCAlarmPanel) {dscalarm="panel:panel_aux_key_alarm"}
+Switch PANEL_AUX_INPUT_ALARM (DSCAlarmPanel) {dscalarm="panel:panel_aux_input_alarm"}
+
+/* DSC Alarm Partition Items */
+String PARTITION1_STATUS "Partition 1 Status: [%s]" (DSCAlarmPartitions) {dscalarm="partition:1:partition_status"}
+Number PARTITION1_ARM_MODE "Partition Arm Mode: [%d]" (DSCAlarmPartitions) {dscalarm="partition:1:partition_arm_mode"}
+
+Switch PARTITION1_ARMED (DSCAlarmPartitions) {dscalarm="partition:1:partition_armed"}
+Switch PARTITION1_ENTRY_DELAY (DSCAlarmPartitions) {dscalarm="partition:1:partition_entry_delay"}
+Switch PARTITION1_EXIT_DELAY (DSCAlarmPartitions) {dscalarm="partition:1:partition_exit_delay"}
+Switch PARTITION1_IN_ALARM (DSCAlarmPartitions) {dscalarm="partition:1:partition_in_alarm"}
+
+/* DSC Alarm Zones Items */
+Contact ZONE1_GENERAL_STATUS "Tamper Switch" (DSCAlarmZones) {dscalarm="zone:1:1:zone_general_status"}
+Number ZONE1_BYPASS_MODE "Tamper Switch Bypass Mode" (DSCAlarmZones) {dscalarm="zone:1:1:zone_bypass_mode"}
+String ZONE1_ALARM_STATUS "Alarm Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:1:zone_alarm_status"}
+String ZONE1_FAULT_STATUS "Fault Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:1:zone_fault_status"}
+String ZONE1_TAMPER_STATUS "Tamper Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:1:zone_tamper_status"}
+Switch ZONE1_IN_ALARM (DSCAlarmZones) {dscalarm="zone:1:1:zone_in_alarm"}
+Switch ZONE1_TAMPER (DSCAlarmZones) {dscalarm="zone:1:1:zone_tamper"}
+Switch ZONE1_FAULT (DSCAlarmZones) {dscalarm="zone:1:1:zone_fault"}
+Switch ZONE1_TRIPPED (DSCAlarmZones) {dscalarm="zone:1:1:zone_tripped"}
+
+Contact ZONE9_GENERAL_STATUS "Front Door Sensor" (DSCAlarmZones, FrontFoyer) {dscalarm="zone:1:9:zone_general_status"}
+Number ZONE9_BYPASS_MODE "Front Door Bypass Mode" (DSCAlarmZones) {dscalarm="zone:1:9:zone_bypass_mode"}
+String ZONE9_ALARM_STATUS "Alarm Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:9:zone_alarm_status"}
+String ZONE9_FAULT_STATUS "Fault Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:9:zone_fault_status"}
+String ZONE9_TAMPER_STATUS "Tamper Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:9:zone_tamper_status"}
+Switch ZONE9_IN_ALARM (DSCAlarmZones) {dscalarm="zone:1:9:zone_in_alarm"}
+Switch ZONE9_TAMPER (DSCAlarmZones) {dscalarm="zone:1:9:zone_tamper"}
+Switch ZONE9_FAULT (DSCAlarmZones) {dscalarm="zone:1:9:zone_fault"}
+Switch ZONE9_TRIPPED (DSCAlarmZones) {dscalarm="zone:1:9:zone_tripped"}
+
+Contact ZONE10_GENERAL_STATUS "Deck Door Sensor" (DSCAlarmZones, FamilyRoom) {dscalarm="zone:1:10:zone_general_status"}
+Number ZONE10_BYPASS_MODE "Deck Door Sensor Bypass Mode" (DSCAlarmZones) {dscalarm="zone:1:10:zone_bypass_mode"}
+String ZONE10_ALARM_STATUS "Alarm Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:10:zone_alarm_status"}
+String ZONE10_FAULT_STATUS "Fault Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:10:zone_fault_status"}
+String ZONE10_TAMPER_STATUS "Tamper Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:10:zone_tamper_status"}
+Switch ZONE10_IN_ALARM (DSCAlarmZones) {dscalarm="zone:1:10:zone_in_alarm"}
+Switch ZONE10_TAMPER (DSCAlarmZones) {dscalarm="zone:1:10:zone_tamper"}
+Switch ZONE10_FAULT (DSCAlarmZones) {dscalarm="zone:1:10:zone_fault"}
+Switch ZONE10_TRIPPED (DSCAlarmZones) {dscalarm="zone:1:10:zone_tripped"}
+
+Contact ZONE11_GENERAL_STATUS "Back Door Sensor" (DSCAlarmZones, UtilityRoom) {dscalarm="zone:1:11:zone_general_status"}
+Number ZONE11_BYPASS_MODE "Back Door Sensor Bypass Mode" (DSCAlarmZones) {dscalarm="zone:1:11:zone_bypass_mode"}
+String ZONE11_ALARM_STATUS "Alarm Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:11:zone_alarm_status"}
+String ZONE11_FAULT_STATUS "Fault Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:11:zone_fault_status"}
+String ZONE11_TAMPER_STATUS "Tamper Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:11:zone_tamper_status"}
+Switch ZONE11_IN_ALARM (DSCAlarmZones) {dscalarm="zone:1:11:zone_in_alarm"}
+Switch ZONE11_TAMPER (DSCAlarmZones) {dscalarm="zone:1:11:zone_tamper"}
+Switch ZONE11_FAULT (DSCAlarmZones) {dscalarm="zone:1:11:zone_fault"}
+Switch ZONE11_TRIPPED (DSCAlarmZones) {dscalarm="zone:1:11:zone_tripped"}
+
+Contact ZONE12_GENERAL_STATUS "Side Door Sensor" (DSCAlarmZones, SideFoyer) {dscalarm="zone:1:12:zone_general_status"}
+Number ZONE12_BYPASS_MODE "Side Door Sensor Bypass Mode" (DSCAlarmZones) {dscalarm="zone:1:12:zone_bypass_mode"}
+String ZONE12_ALARM_STATUS "Alarm Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:12:zone_alarm_status"}
+String ZONE12_FAULT_STATUS "Fault Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:12:zone_fault_status"}
+String ZONE12_TAMPER_STATUS "Tamper Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:12:zone_tamper_status"}
+Switch ZONE12_IN_ALARM (DSCAlarmZones) {dscalarm="zone:1:12:zone_in_alarm"}
+Switch ZONE12_TAMPER (DSCAlarmZones) {dscalarm="zone:1:12:zone_tamper"}
+Switch ZONE12_FAULT (DSCAlarmZones) {dscalarm="zone:1:12:zone_fault"}
+Switch ZONE12_TRIPPED (DSCAlarmZones) {dscalarm="zone:1:12:zone_tripped"}
+
+Contact ZONE13_GENERAL_STATUS "Garage Door 1 Sensor" (DSCAlarmZones, Garage) {dscalarm="zone:1:13:zone_general_status"}
+Number ZONE13_BYPASS_MODE "Garage Door 1 Sensor Bypass Mode" (DSCAlarmZones) {dscalarm="zone:1:13:zone_bypass_mode"}
+String ZONE13_ALARM_STATUS "Alarm Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:13:zone_alarm_status"}
+String ZONE13_FAULT_STATUS "Fault Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:13:zone_fault_status"}
+String ZONE13_TAMPER_STATUS "Tamper Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:13:zone_tamper_status"}
+Switch ZONE13_IN_ALARM (DSCAlarmZones) {dscalarm="zone:1:13:zone_in_alarm"}
+Switch ZONE13_TAMPER (DSCAlarmZones) {dscalarm="zone:1:13:zone_tamper"}
+Switch ZONE13_FAULT (DSCAlarmZones) {dscalarm="zone:1:13:zone_fault"}
+Switch ZONE13_TRIPPED (DSCAlarmZones) {dscalarm="zone:1:13:zone_tripped"}
+
+Contact ZONE14_GENERAL_STATUS "Garage Door 2 Sensor" (DSCAlarmZones, Garage) {dscalarm="zone:1:14:zone_general_status"}
+Number ZONE14_BYPASS_MODE "Garage Door 2 Sensor Bypass Mode" (DSCAlarmZones) {dscalarm="zone:1:14:zone_bypass_mode"}
+String ZONE14_ALARM_STATUS "Alarm Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:14:zone_alarm_status"}
+String ZONE14_FAULT_STATUS "Fault Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:14:zone_fault_status"}
+String ZONE14_TAMPER_STATUS "Tamper Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:14:zone_tamper_status"}
+Switch ZONE14_IN_ALARM (DSCAlarmZones) {dscalarm="zone:1:14:zone_in_alarm"}
+Switch ZONE14_TAMPER (DSCAlarmZones) {dscalarm="zone:1:14:zone_tamper"}
+Switch ZONE14_FAULT (DSCAlarmZones) {dscalarm="zone:1:14:zone_fault"}
+Switch ZONE14_TRIPPED (DSCAlarmZones) {dscalarm="zone:1:14:zone_tripped"}
+
+Contact ZONE15_GENERAL_STATUS "Garage Window Sensor" (DSCAlarmZones, Garage) {dscalarm="zone:1:15:zone_general_status"}
+Number ZONE15_BYPASS_MODE "Garage Window Sensor Bypass Mode" (DSCAlarmZones) {dscalarm="zone:1:15:zone_bypass_mode"}
+String ZONE15_ALARM_STATUS "Alarm Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:15:zone_alarm_status"}
+String ZONE15_FAULT_STATUS "Fault Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:15:zone_fault_status"}
+String ZONE15_TAMPER_STATUS "Tamper Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:15:zone_tamper_status"}
+Switch ZONE15_IN_ALARM (DSCAlarmZones) {dscalarm="zone:1:15:zone_in_alarm"}
+Switch ZONE15_TAMPER (DSCAlarmZones) {dscalarm="zone:1:15:zone_tamper"}
+Switch ZONE15_FAULT (DSCAlarmZones) {dscalarm="zone:1:15:zone_fault"}
+Switch ZONE15_TRIPPED (DSCAlarmZones) {dscalarm="zone:1:15:zone_tripped"}
+
+Contact ZONE25_GENERAL_STATUS "Utility Room Motion Sensor" (DSCAlarmZones,  UtilityRoom) {dscalarm="zone:1:25:zone_general_status"}
+Number ZONE25_BYPASS_MODE "Utility Room Motion Sensor Bypass Mode" (DSCAlarmZones) {dscalarm="zone:1:25:zone_bypass_mode"}
+String ZONE25_ALARM_STATUS "Alarm Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:25:zone_alarm_status"}
+String ZONE25_FAULT_STATUS "Fault Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:25:zone_fault_status"}
+String ZONE25_TAMPER_STATUS "Tamper Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:25:zone_tamper_status"}
+Switch ZONE25_IN_ALARM (DSCAlarmZones) {dscalarm="zone:1:25:zone_in_alarm"}
+Switch ZONE25_TAMPER (DSCAlarmZones) {dscalarm="zone:1:25:zone_tamper"}
+Switch ZONE25_FAULT (DSCAlarmZones) {dscalarm="zone:1:25:zone_fault"}
+Switch ZONE25_TRIPPED (DSCAlarmZones) {dscalarm="zone:1:25:zone_tripped"}
+
+/* DSC Alarm Keypad Items */
+Number KEYPAD_READY_LED "Ready LED Status: [%d]" (DSCAlarmKeypads) {dscalarm="keypad:keypad_ready_led"}
+Number KEYPAD_ARMED_LED "Armed LED Status: [%d]" (DSCAlarmKeypads) {dscalarm="keypad:keypad_armed_led"}
+Number KEYPAD_MEMORY_LED "Memory LED Status: [%d]" (DSCAlarmKeypads) {dscalarm="keypad:keypad_memory_led"}
+Number KEYPAD_BYPASS_LED "Bypass LED Status: [%d]" (DSCAlarmKeypads) {dscalarm="keypad:keypad_bypass_led"}
+Number KEYPAD_TROUBLE_LED "Trouble LED Status: [%d]" (DSCAlarmKeypads) {dscalarm="keypad:keypad_trouble_led"}
+Number KEYPAD_PROGRAM_LED "Program LED Status: [%d]" (DSCAlarmKeypads) {dscalarm="keypad:keypad_program_led"}
+Number KEYPAD_FIRE_LED "Fire LED Status: [%d]" (DSCAlarmKeypads) {dscalarm="keypad:keypad_fire_led"}
+Number KEYPAD_BACKLIGHT_LED "Backlight LED Status: [%d]" (DSCAlarmKeypads) {dscalarm="keypad:keypad_backlight_led"}
+Number KEYPAD_AC_LED "AC LED Status: [%d]" (DSCAlarmKeypads) {dscalarm="keypad:keypad_ac_led"}
+
+Here is an example sitemap:
+
+Frame label="Alarm System" {
+    Text label="DSC Alarm System" icon="shield-1" {
+        Frame label="Panel" {
+            Switch item=PANEL_CONNECTION label="Panel Connection" icon="shield-1" mappings=[1="Connected", 0="Disconnected"]
+            Text item=PANEL_MESSAGE icon="shield-1"
+            Selection item=PANEL_COMMAND icon="shield-1" mappings=[0="Poll", 1="Status Report", 2="Labels Request (Serial Only)", 8="Dump Zone Timers (TCP Only)", 10="Set Time/Date", 200="Send User Code"]
+            Text item=PANEL_TIME {
+                Switch item=PANEL_TIME_STAMP label="Panel Time Stamp"
+                Switch item=PANEL_TIME_BROADCAST label="Panel Time Broadcast"
+            }
+        }
+
+        Frame label="Partitions" {
+                Text item=PARTITION1_STATUS icon="shield-1" {
+                    Switch item=PARTITION1_ARM_MODE label="Partition 1 Arm Options" mappings=[0="Disarm", 1="Away", 2="Stay", 3="Zero", 4="W/Code"]
+                }
+        }
+
+        Frame label="Keypad" {
+            Text label="Keypad LED Status" icon="shield-1" {
+                Switch item=KEYPAD_READY_LED label="Ready LED Status:" mappings=[0="Off", 1="On", 2="Flashing"]
+                Switch item=KEYPAD_ARMED_LED label="Armed LED Status:" mappings=[0="Off", 1="On", 2="Flashing"]
+                Switch item=KEYPAD_MEMORY_LED label="Memory LED Status:" mappings=[0="Off", 1="On", 2="Flashing"]
+                Switch item=KEYPAD_BYPASS_LED label="Bypass LED Status:" mappings=[0="Off", 1="On", 2="Flashing"]
+                Switch item=KEYPAD_TROUBLE_LED label="Trouble LED Status:" mappings=[0="Off", 1="On", 2="Flashing"]
+                Switch item=KEYPAD_PROGRAM_LED label="Program LED Status:" mappings=[0="Off", 1="On", 2="Flashing"]
+                Switch item=KEYPAD_FIRE_LED label="Fire LED Status:" mappings=[0="Off", 1="On", 2="Flashing"]
+                Switch item=KEYPAD_BACKLIGHT_LED label="Backlight LED Status:" mappings=[0="Off", 1="On", 2="Flashing"]
+                Switch item=KEYPAD_AC_LED label="AC LED Status:" mappings=[0="Off", 1="On", 2="Flashing"]
+            }
+        }
+
+        Frame label="Zones" {
+            Text item=ZONE1_GENERAL_STATUS {
+                Switch item=ZONE1_BYPASS_MODE icon="MyImages/Zone-Alarm" mappings=[0="Armed", 1="Bypassed"]
+                Frame label="Other Status:" {
+                    Text item=ZONE1_ALARM_STATUS icon="MyImages/Status-warning"
+                    Text item=ZONE1_FAULT_STATUS icon="MyImages/Status-warning"
+                    Text item=ZONE1_TAMPER_STATUS icon="MyImages/Status-warning"
+                }
+            }
+
+            Text item=ZONE9_GENERAL_STATUS {
+                Switch item=ZONE9_BYPASS_MODE icon="MyImages/Zone-Alarm" mappings=[0="Armed", 1="Bypassed"]
+                Frame label="Other Status:" {
+                    Text item=ZONE9_ALARM_STATUS icon="MyImages/Status-warning"
+                    Text item=ZONE9_FAULT_STATUS icon="MyImages/Status-warning"
+                    Text item=ZONE9_TAMPER_STATUS icon="MyImages/Status-warning"
+                }
+            }
+            Text item=ZONE10_GENERAL_STATUS {
+                Switch item=ZONE10_BYPASS_MODE icon="MyImages/Zone-Alarm" mappings=[0="Armed", 1="Bypassed"]
+                Frame label="Other Status:" {
+                    Text item=ZONE10_ALARM_STATUS icon="MyImages/Status-warning"
+                    Text item=ZONE10_FAULT_STATUS icon="MyImages/Status-warning"
+                    Text item=ZONE10_TAMPER_STATUS icon="MyImages/Status-warning"
+                }
+            }
+            Text item=ZONE11_GENERAL_STATUS {
+                Switch item=ZONE11_BYPASS_MODE icon="MyImages/Zone-Alarm" mappings=[0="Armed", 1="Bypassed"]
+                Frame label="Other Status:" {
+                    Text item=ZONE11_ALARM_STATUS icon="MyImages/Status-warning"
+                    Text item=ZONE11_FAULT_STATUS icon="MyImages/Status-warning"
+                    Text item=ZONE11_TAMPER_STATUS icon="MyImages/Status-warning"
+                }
+            }
+            Text item=ZONE12_GENERAL_STATUS {
+                Switch item=ZONE12_BYPASS_MODE icon="MyImages/Zone-Alarm" mappings=[0="Armed", 1="Bypassed"]
+                Frame label="Other Status:" {
+                    Text item=ZONE12_ALARM_STATUS icon="MyImages/Status-warning"
+                    Text item=ZONE12_FAULT_STATUS icon="MyImages/Status-warning"
+                    Text item=ZONE12_TAMPER_STATUS icon="MyImages/Status-warning"
+                }
+            }
+            Text item=ZONE13_GENERAL_STATUS {
+                Switch item=ZONE13_BYPASS_MODE icon="MyImages/Zone-Alarm" mappings=[0="Armed", 1="Bypassed"]
+                Frame label="Other Status:" {
+                    Text item=ZONE13_ALARM_STATUS icon="MyImages/Status-warning"
+                    Text item=ZONE13_FAULT_STATUS icon="MyImages/Status-warning"
+                    Text item=ZONE13_TAMPER_STATUS icon="MyImages/Status-warning"
+                }
+            }
+            Text item=ZONE14_GENERAL_STATUS {
+                Switch item=ZONE14_BYPASS_MODE icon="MyImages/Zone-Alarm" mappings=[0="Armed", 1="Bypassed"]
+                Frame label="Other Status:" {
+                    Text item=ZONE14_ALARM_STATUS icon="MyImages/Status-warning"
+                    Text item=ZONE14_FAULT_STATUS icon="MyImages/Status-warning"
+                    Text item=ZONE14_TAMPER_STATUS icon="MyImages/Status-warning"
+                }
+            }
+            Text item=ZONE15_GENERAL_STATUS {
+                Switch item=ZONE15_BYPASS_MODE icon="MyImages/Zone-Alarm" mappings=[0="Armed", 1="Bypassed"]
+                Frame label="Other Status:" {
+                    Text item=ZONE15_ALARM_STATUS icon="MyImages/Status-warning"
+                    Text item=ZONE15_FAULT_STATUS icon="MyImages/Status-warning"
+                    Text item=ZONE15_TAMPER_STATUS icon="MyImages/Status-warning"
+                }
+            }
+            Text item=ZONE25_GENERAL_STATUS {
+                Switch item=ZONE25_BYPASS_MODE icon="MyImages/Zone-Alarm" mappings=[0="Armed", 1="Bypassed"]
+                Frame label="Other Status:" {
+                    Text item=ZONE25_ALARM_STATUS icon="MyImages/Status-warning"
+                    Text item=ZONE25_FAULT_STATUS icon="MyImages/Status-warning"
+                    Text item=ZONE25_TAMPER_STATUS icon="MyImages/Status-warning"
+                }
+            }
+        }
+    }
+}
+
+	
+	
+	
+}
+
+

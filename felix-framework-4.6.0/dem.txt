@@ -1,0 +1,13 @@
+ elza@elza-UX303LN:~/Documents/ricm4/2ndSemestre/Projet/felix-framework-4.6.0$java -jar bin/felix.jar 
+ 
+ 
+  obr:list UPnP
+
+g! lb
+
+
+
+ obr:deploy -s "Apache Felix UPnP Base Driver"
+ 
+ 
+ 

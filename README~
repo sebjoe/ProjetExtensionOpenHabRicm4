@@ -1,0 +1,17 @@
+Hello World
+
+Folder "openhab" :
+			Contains the application that we produce. To lunch it do "./start.h"
+			
+Folder "UPnPTester":
+			Contains an application that help trace several UPnP device in a netwok
+			
+Folder "felix-framework-4.6.0" :
+			Contains the framework that allow to test the UPnPTester
+
+Folfer "org.openhab.binding.upnpV*":
+			Contains Code to create a binding in OpenHab with the UPnPServices
+
+Folder "org.openhab.upnp.commandV*" :
+			Contains Code to execute a command that allow you to see all UPnP device in a netwok.
+			This command line is executed in OpenHab or felix-framework

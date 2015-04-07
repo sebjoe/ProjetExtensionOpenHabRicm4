@@ -1,0 +1,5 @@
+#encoding=UTF-8
+#version=1
+org.apache.log4j.source,1.2.15.v201012070815,plugins/org.apache.log4j.source_1.2.15.v201012070815.jar,-1,false
+org.eclipse.emf.mwe2.lib.source,2.3.0.v201206110920,plugins/org.eclipse.emf.mwe2.lib.source_2.3.0.v201206110920.jar,-1,false
+org.eclipse.emf.mwe2.runtime.source,2.3.0.v201206110920,plugins/org.eclipse.emf.mwe2.runtime.source_2.3.0.v201206110920.jar,-1,false

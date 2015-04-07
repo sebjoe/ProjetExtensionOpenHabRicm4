@@ -1,0 +1,19 @@
+Group            gAll
+Group            Status                                                 		(gAll)
+Group            gGF                                               				(gAll)
+Group            gLights                                               	 		(gAll)
+Group            gShutters                                              		(gAll)
+Group            gGF_Living       "Living room"                  <video>        (gGF)
+Group			gGF_Living_Security
+Group:Number:AVG gTemperature     "Avg. Room Temp. [%.1f °C]" <temperature> 
+
+/* Lights */
+Switch Light_GF_Living_Table     "Table"                                   (gGF_Living, gLights)
+
+/* Rollershutters */
+Rollershutter Shutter_GF_Living  "Shutter"                                 (gGF_Living, gShutters)
+
+/* Indoor Temperatures */
+Number Temperature_GF_Living     "Temperature [%.1f °C]"   <temperature>   (gTemperature, gGF_Living)
+Number Temperature_GF_Kitchen    "Temperature [%.1f °C]"   <temperature>   (gTemperature, gGF_Kitchen)
+

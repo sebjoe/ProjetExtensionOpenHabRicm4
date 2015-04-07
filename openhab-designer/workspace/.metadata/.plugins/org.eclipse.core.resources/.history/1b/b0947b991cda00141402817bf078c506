@@ -1,0 +1,22 @@
+import org.openhab.core.library.types.*
+import org.openhab.core.persistence.*
+import org.openhab.model.script.actions.*
+
+
+rule "Actualisation"
+when 		
+	Time cron "0/5 0 * * * ?"
+	or Item DemoSwitch changed
+then
+	if(!DemoSwitch.getState().equals(DemoSwitch.lastUpdate)) {
+		postUpdate(DemoSwitch,0)
+		logInfo("PersistenceDemo2", "0")
+	}
+	else{
+		postUpdate(DemoSwitch,1)
+		logInfo("PersistenceDemo2", "1")
+	}
+		
+	
+	
+end 

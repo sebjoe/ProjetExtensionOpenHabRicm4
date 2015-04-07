@@ -1,0 +1,5 @@
+import org.apache.felix.upnp.basedriver
+
+rule
+
+println("JOE")

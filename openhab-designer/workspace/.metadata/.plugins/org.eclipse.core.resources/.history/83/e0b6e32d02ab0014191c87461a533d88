@@ -1,0 +1,7 @@
+import org.apache.felix.upnp.basedriver
+
+rule "JOE RULES"
+	when true
+		then 
+		println("JOE")
+end

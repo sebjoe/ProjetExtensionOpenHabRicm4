@@ -1,0 +1,12 @@
+import org.openhab.core.library.types.*
+import org.openhab.core.persistence.*
+import org.openhab.model.script.actions.*
+
+
+rule "Actualisation"
+when 		
+	Time cron "0 0/1 * * * ?" or Item EcranCamera changed
+then	
+	postUpdate (EcranCamera,true)
+	
+end 

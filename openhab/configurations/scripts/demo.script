@@ -1,0 +1,2 @@
+say("Demo script has been called!")
+gcamera.notifyAll

@@ -1,0 +1,105 @@
+sitemap demo label="Main Menu"
+
+{
+		Frame label="Alarm System" {
+	    Text label="DSC Alarm System" icon="shield-1" {
+	        Frame label="Panel" {
+	            Switch item=PANEL_CONNECTION label="Panel Connection" icon="shield-1" mappings=[1="Connected", 0="Disconnected"]
+	            Text item=PANEL_MESSAGE icon="shield-1"
+	            Selection item=PANEL_COMMAND icon="shield-1" mappings=[0="Poll", 1="Status Report", 2="Labels Request (Serial Only)", 8="Dump Zone Timers (TCP Only)", 10="Set Time/Date", 200="Send User Code"]
+	            Text item=PANEL_TIME {
+	                Switch item=PANEL_TIME_STAMP label="Panel Time Stamp"
+	                Switch item=PANEL_TIME_BROADCAST label="Panel Time Broadcast"
+	            }
+	        }
+	
+	        Frame label="Partitions" {
+	                Text item=PARTITION1_STATUS icon="shield-1" {
+	                    Switch item=PARTITION1_ARM_MODE label="Partition 1 Arm Options" mappings=[0="Disarm", 1="Away", 2="Stay", 3="Zero", 4="W/Code"]
+	                }
+	        }
+	
+	        Frame label="Keypad" {
+	            Text label="Keypad LED Status" icon="shield-1" {
+	                Switch item=KEYPAD_READY_LED label="Ready LED Status:" mappings=[0="Off", 1="On", 2="Flashing"]
+	                Switch item=KEYPAD_ARMED_LED label="Armed LED Status:" mappings=[0="Off", 1="On", 2="Flashing"]
+	                Switch item=KEYPAD_MEMORY_LED label="Memory LED Status:" mappings=[0="Off", 1="On", 2="Flashing"]
+	                Switch item=KEYPAD_BYPASS_LED label="Bypass LED Status:" mappings=[0="Off", 1="On", 2="Flashing"]
+	                Switch item=KEYPAD_TROUBLE_LED label="Trouble LED Status:" mappings=[0="Off", 1="On", 2="Flashing"]
+	                Switch item=KEYPAD_PROGRAM_LED label="Program LED Status:" mappings=[0="Off", 1="On", 2="Flashing"]
+	                Switch item=KEYPAD_FIRE_LED label="Fire LED Status:" mappings=[0="Off", 1="On", 2="Flashing"]
+	                Switch item=KEYPAD_BACKLIGHT_LED label="Backlight LED Status:" mappings=[0="Off", 1="On", 2="Flashing"]
+	                Switch item=KEYPAD_AC_LED label="AC LED Status:" mappings=[0="Off", 1="On", 2="Flashing"]
+	            }
+	        }
+	
+			Frame label="Camera"{
+					Webview url="http://192.168.1.56/" height=25
+					Video url="http://192.168.1.56" encoding="mjpeg"
+					Video url="rstp://192.168.1.56:554/live2.sdp" encoding="mjpeg"
+					Video url="http://192.168.1.56/mjpg/video.mjpg?camera=1" encoding="mjpeg"
+			}	
+	        
+	        
+	        
+	    }
+	}
+	
+	Frame label="Unknown Object"{
+//		Video item=gcamera url="http://192.168.1.56:88"
+//		Video item=gcamera url="rstp://192.168.1.56:554/live1.sdp" 
+//		Video item=gcamera url="http://192.168.1.56/mjpg/video.mjpg?camera=1"
+//		
+//		Video item=gcamera url="http://192.168.1.56" encoding="mjpeg"
+//		Video item=gcamera url="rstp://192.168.1.56:554/live1.sdp" encoding="mjpeg"
+//		Video item=gcamera url="http://192.168.1.56/mjpg/video.mjpg?camera=1" encoding="mjpeg"
+//		
+//		Image item=gcamera url="http://192.168.1.56" refresh=1000
+//		Webview item=gcamera url="http://192.168.1.56/video.cgi" height=25
+//		
+//		Video item=gcamera url="/dms?nowprofileid=1&"
+//		Webview item=gcamera url="/dms?nowprofileid=1&"
+//		
+//		Video item=gcamera url="http://192.168.1.56/dms?nowprofileid=1&"
+//		Webview item=gcamera url="http://192.168.1.56/dms?nowprofileid=1&" height=25 
+//		
+//		Webview item=gcamera url="http://192.168.1.56/dms?nowprofileid=1" height=25 
+//		
+//		Image item=gcamera  url="http://192.168.1.56/dms?nowprofileid=1" refresh=1000
+//		
+//		Image  item=gcamera url="http://192.168.1.56/dms?" refresh=1000
+//		
+//		Image item=gcamera url="http://192.168.1.56/common.js?2.1.25:4593" refresh=1000
+//		
+//		Video item=gcamera url="http://192.168.1.56/dms?nowprofileid=1:554/live1.sdp" encoding="mjpg"
+//		Video item=gcamera url="http://192.168.1.56/dms?nowprofileid=1:4593/live1.sdp" 
+//		
+//		
+//		Video item=gcamera url="http://192.168.1.56/common.js?2.1.25:4593" 
+//		
+//		Video item=gcamera url="rstp://192.168.1.56/common.js?2.1.25:4593" 
+//		Video item=gcamera url="http://192.168.1.56/video1.mjpg"
+//		
+//		
+//		Video item=gcamera url="http://192.168.1.56:80/dms/video1.mjpeg" 
+//		
+		
+		//Webview url="http://192.168.1.56/video1.m4v"
+		
+		
+		//Image  url="http://192.168.1.56/video1.m4v" refresh=1000 
+		
+		//Video  url="http://192.168.1.56/video1.m4v" 
+		//Video  url="http://192.168.1.56/video1.m4v" encoding="mjpeg"
+		//Webview  item=gcamera url="http://192.168.1.56/dms?" height=25 
+				
+		
+		Webview url="http://192.168.1.56/" height=25
+		
+	}
+	 
+	
+	
+}
+
+

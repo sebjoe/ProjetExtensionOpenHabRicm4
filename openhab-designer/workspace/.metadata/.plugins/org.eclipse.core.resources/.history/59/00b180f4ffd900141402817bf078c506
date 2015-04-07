@@ -1,0 +1,264 @@
+Group All
+/* 
+Group gGF 		(All)*/
+Group gFF 		(All)
+Group gcamera 	(All)
+/*
+Group gC 		(All)
+Group Outdoor 	(All)
+Group Shutters 	(All)
+Group Weather 	(All)
+Group Status 	(All)
+
+Group GF_Living 	"Living Room" 	<video> 	(gGF)
+Group GF_Kitchen 	"Kitchen" 		<kitchen> 	(gGF)
+Group GF_Toilet 	"Toilet" 		<bath> 		(gGF)
+Group GF_Corridor 	"Corridor" 		<corridor> 	(gGF)
+
+Group FF_Bath 		"Bathroom" 		<bath> 		(gFF)
+Group FF_Office 	"Office" 		<office> 	(gFF)
+Group FF_Child 		"Child's Room" 	<boy1> 		(gFF)
+Group FF_Bed 		"Bedroom" 		<bedroom> 	(gFF)
+Group FF_Corridor 	"Corridor" 		<corridor> 	(gFF)
+
+/* active groups *//* 
+Group:Switch:OR(ON, OFF) 		Lights 		"All Lights [(%d)]" 								(All)
+Group:Switch:OR(ON, OFF) 		Heating 	"No. of Active Heatings [(%d)]" 	<heating> 		(All)
+Group:Number:AVG 				Temperature	"Avg. Room Temperature [%.1f °C]" 	<temperature>	(Status)
+Group:Contact:OR(OPEN, CLOSED) 	Windows 	"Open windows [(%d)]"				<contact>		(All)
+
+/* Lights *//*
+Dimmer Light_GF_Living_Table 		"Table" 		(GF_Living, Lights)
+Switch Light_GF_Corridor_Ceiling 	"Ceiling" 		(GF_Corridor, Lights)
+Switch Light_GF_Kitchen_Ceiling 	"Ceiling" 		(GF_Kitchen, Lights)
+Switch Light_GF_Kitchen_Table 		"Table" 		(GF_Kitchen, Lights)
+Switch Light_GF_Corridor_Wardrobe 	"Wardrobe"	 	(GF_Corridor, Lights)
+Switch Light_GF_Toilet_Ceiling 		"Ceiling" 		(GF_Toilet, Lights)
+Switch Light_GF_Toilet_Mirror 		"Mirror" 		(GF_Toilet, Lights)
+
+Switch Light_FF_Bath_Ceiling 		"Ceiling" 		(FF_Bath, Lights)
+Switch Light_FF_Bath_Mirror 		"Mirror" 		(FF_Bath, Lights)
+Switch Light_FF_Corridor_Ceiling 	"Corridor" 		(FF_Corridor, Lights)
+Switch Light_FF_Office_Ceiling 		"Ceiling" 		(FF_Office, Lights)
+Switch Light_FF_Child_Ceiling 		"Ceiling" 		(FF_Child, Lights)
+Switch Light_FF_Bed_Ceiling 		"Ceiling" 		(FF_Bed, Lights)
+
+Switch Light_C_Corridor_Ceiling 	"Ceiling" 		(gC, Lights)
+Switch Light_C_Staircase 			"Staircase" 	(gC, Lights)
+Switch Light_C_Washing_Ceiling 		"Washing" 		(gC, Lights)
+Switch Light_C_Workshop 			"Workshop" 		(gC, Lights)
+
+Switch Light_Outdoor_Garage 		"Garage" 		(Outdoor, Lights)
+Switch Light_Outdoor_Terrace 		"Terrace" 		(Outdoor, Lights)
+Switch Light_Outdoor_Frontdoor 		"Frontdoor"		(Outdoor, Lights)
+
+/* Heating *//*
+Switch Heating_GF_Corridor 	"GF Corridor" 	<heating>	(GF_Corridor, Heating)
+Switch Heating_GF_Toilet 	"Toilet"	 	<heating>	(GF_Toilet, Heating)
+Switch Heating_GF_Living 	"Livingroom" 	<heating>	(GF_Living, Heating)
+Switch Heating_GF_Kitchen 	"Kitchen" 		<heating>	(GF_Kitchen, Heating)
+
+Switch Heating_FF_Bath 		"Bath" 			<heating>	(FF_Bath, Heating)
+Switch Heating_FF_Office 	"Office" 		<heating>	(FF_Office, Heating)
+Switch Heating_FF_Child 	"Child's Room" 	<heating>	(FF_Child, Heating)
+Switch Heating_FF_Bed 		"Bedroom" 		<heating>	(FF_Bed, Heating)
+
+/* Rollershutters *//*
+Switch Shutter_all (Shutters)
+
+Rollershutter Shutter_GF_Toilet 		"Toilet"		(GF_Toilet, Shutters)
+Rollershutter Shutter_GF_Kitchen 		"Kitchen"		(GF_Kitchen, Shutters)
+Rollershutter Shutter_GF_Living 		"Livingroom"	(GF_Living, Shutters)
+
+Rollershutter Shutter_FF_Bed 			"Bedroom"		(FF_Bed, Shutters)
+Rollershutter Shutter_FF_Bath 			"Bath"			(FF_Bath, Shutters)
+Rollershutter Shutter_FF_Office_Window	"Office Window"	(FF_Office, Shutters)
+Rollershutter Shutter_FF_Office_Door 	"Office Door"	(FF_Office, Shutters)
+
+/* Indoor Temperatures *//*
+Number Temperature_GF_Corridor 	"Temperature [%.1f °C]"	<temperature>	(Temperature, GF_Corridor)
+Number Temperature_GF_Toilet 	"Temperature [%.1f °C]"	<temperature>	(Temperature, GF_Toilet)
+Number Temperature_GF_Living 	"Temperature [%.1f °C]"	<temperature>	(Temperature, GF_Living)
+Number Temperature_GF_Kitchen 	"Temperature [%.1f °C]"	<temperature>	(Temperature, GF_Kitchen)
+Number Temperature_FF_Bath 		"Temperature [%.1f °C]"	<temperature>	(Temperature, FF_Bath)
+Number Temperature_FF_Office 	"Temperature [%.1f °C]"	<temperature>	(Temperature, FF_Office)
+Number Temperature_FF_Child 	"Temperature [%.1f °C]"	<temperature>	(Temperature, FF_Child)
+Number Temperature_FF_Bed 		"Temperature [%.1f °C]"	<temperature>	(Temperature, FF_Bed)
+
+/* Windows *//*
+Contact Window_GF_Frontdoor 	"Frontdoor [MAP(en.map):%s]"		(GF_Corridor, Windows)
+Contact Window_GF_Kitchen 		"Kitchen [MAP(en.map):%s]"			(GF_Kitchen, Windows)
+Contact Window_GF_Living 		"Terrace door [MAP(en.map):%s]"		(GF_Living, Windows)
+Contact Window_GF_Toilet 		"Toilet [MAP(en.map):%s]"			(GF_Toilet, Windows)
+
+Contact Window_FF_Bath 			"Bath [MAP(en.map):%s]"				(FF_Bath, Windows)
+Contact Window_FF_Bed 			"Bedroom [MAP(en.map):%s]"			(FF_Bed, Windows)
+Contact Window_FF_Office_Window "Office Window [MAP(en.map):%s]"	(FF_Office, Windows)
+Contact Window_FF_Office_Door 	"Balcony Door [MAP(en.map):%s]"		(FF_Office, Windows)
+
+Contact Garage_Door 			"Garage Door [MAP(en.map):%s]"		(Outdoor, Windows)
+
+Group Weather_Chart													(Weather)
+Number Weather_Temperature 		"Outside Temperature [%.1f °C]"	<temperature> (Weather_Chart) { http="<[http://weather.yahooapis.com/forecastrss?w=638242&u=c:60000:XSLT(yahoo_weather_temperature.xsl)]" }
+Number Weather_Humidity 		"Outside Humidity [%.1f %%]"	<temperature> (Weather) { http="<[http://weather.yahooapis.com/forecastrss?w=638242&u=c:60000:XSLT(yahoo_weather_humidity.xsl)]" }
+Number Weather_Humidex			"Humidex [SCALE(humidex.scale):%s]" 			(Weather)
+Number Weather_Temp_Max 		"Todays Maximum [%.1f °C]"	<temperature> (Weather_Chart)
+Number Weather_Temp_Min 		"Todays Minimum [%.1f °C]"	<temperature> (Weather_Chart)
+Number Weather_Chart_Period		"Chart Period"
+DateTime Weather_LastUpdate		"Last Update [%1$ta %1$tR]"	<clock>
+
+/* NTP binding demo item *//*/
+DateTime		Date			"Date [%1$tA, %1$td.%1$tm.%1$tY]"	<calendar>	{ ntp="Europe/Berlin:de_DE" }
+
+/* Demo items *//* 
+Switch DemoSwitch				"Switch"
+Dimmer DimmedLight				"Dimmer [%d %%]"		<slider>
+Color  RGBLight					"RGB Light"				<slider>
+Rollershutter DemoShutter	 	"Roller Shutter"
+Dimmer DemoBlinds			 	"Blinds [%d %%]"		<rollershutter>
+Number Scene_General			"Scene"					<sofa>
+Number Radio_Station			"Radio"					<network>
+Dimmer Volume 					"Volume [%.1f %%]"
+Number Temperature_Setpoint		"Temperature [%.1f °C]" <temperature>
+
+String UnknownDevices    "Unknown Devices in Range: [%s]" { bluetooth="?" }
+Number NoOfPairedDevices "Paired Devices in Range: [%d]"  { bluetooth="!" }
+*/
+
+
+
+
+
+Group DSCAlarm
+Group DSCAlarmPanel (DSCAlarm)
+Group DSCAlarmPartitions (DSCAlarm)
+Group DSCAlarmZones (DSCAlarm)
+Group DSCAlarmKeypads (DSCAlarm)
+
+/* DSC Alarm Items */
+
+/* DSC Alarm Panel Items */
+Number PANEL_CONNECTION "Panel Connected: [%d]" (DSCAlarmPanel) {dscalarm="panel:panel_connection"}
+Number PANEL_COMMAND "Panel Commands" (DSCAlarmPanel) {dscalarm="panel:panel_command"}
+String PANEL_MESSAGE "Panel Message: [%s]" <"shield-1"> (DSCAlarmPanel) {dscalarm="panel:panel_message"}
+String PANEL_SYSTEM_ERROR "Panel System Error: [%s]" <"shield-1"> (DSCAlarmPanel) {dscalarm="panel:panel_system_error"}
+
+DateTime PANEL_TIME "Panel Time [%1$tA, %1$tm/%1$td/%1$tY %1tT]" <calendar> (DSCAlarmPanel) {dscalarm="panel:panel_time"}
+Switch PANEL_TIME_STAMP (DSCAlarmPanel) {dscalarm="panel:panel_time_stamp"}
+Switch PANEL_TIME_BROADCAST (DSCAlarmPanel) {dscalarm="panel:panel_time_broadcast"}
+
+Switch PANEL_FIRE_KEY_ALARM (DSCAlarmPanel) {dscalarm="panel:panel_fire_key_alarm"}
+Switch PANEL_PANIC_KEY_ALARM (DSCAlarmPanel) {dscalarm="panel:panel_panic_key_alarm"}
+Switch PANEL_AUX_KEY_ALARM (DSCAlarmPanel) {dscalarm="panel:panel_aux_key_alarm"}
+Switch PANEL_AUX_INPUT_ALARM (DSCAlarmPanel) {dscalarm="panel:panel_aux_input_alarm"}
+
+/* DSC Alarm Partition Items */
+String PARTITION1_STATUS "Partition 1 Status: [%s]" (DSCAlarmPartitions) {dscalarm="partition:1:partition_status"}
+Number PARTITION1_ARM_MODE "Partition Arm Mode: [%d]" (DSCAlarmPartitions) {dscalarm="partition:1:partition_arm_mode"}
+
+Switch PARTITION1_ARMED (DSCAlarmPartitions) {dscalarm="partition:1:partition_armed"}
+Switch PARTITION1_ENTRY_DELAY (DSCAlarmPartitions) {dscalarm="partition:1:partition_entry_delay"}
+Switch PARTITION1_EXIT_DELAY (DSCAlarmPartitions) {dscalarm="partition:1:partition_exit_delay"}
+Switch PARTITION1_IN_ALARM (DSCAlarmPartitions) {dscalarm="partition:1:partition_in_alarm"}
+
+/* DSC Alarm Zones Items */
+Contact ZONE1_GENERAL_STATUS "Tamper Switch" (DSCAlarmZones) {dscalarm="zone:1:1:zone_general_status"}
+Number ZONE1_BYPASS_MODE "Tamper Switch Bypass Mode" (DSCAlarmZones) {dscalarm="zone:1:1:zone_bypass_mode"}
+String ZONE1_ALARM_STATUS "Alarm Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:1:zone_alarm_status"}
+String ZONE1_FAULT_STATUS "Fault Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:1:zone_fault_status"}
+String ZONE1_TAMPER_STATUS "Tamper Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:1:zone_tamper_status"}
+Switch ZONE1_IN_ALARM (DSCAlarmZones) {dscalarm="zone:1:1:zone_in_alarm"}
+Switch ZONE1_TAMPER (DSCAlarmZones) {dscalarm="zone:1:1:zone_tamper"}
+Switch ZONE1_FAULT (DSCAlarmZones) {dscalarm="zone:1:1:zone_fault"}
+Switch ZONE1_TRIPPED (DSCAlarmZones) {dscalarm="zone:1:1:zone_tripped"}
+
+Contact ZONE9_GENERAL_STATUS "Front Door Sensor" (DSCAlarmZones, FrontFoyer) {dscalarm="zone:1:9:zone_general_status"}
+Number ZONE9_BYPASS_MODE "Front Door Bypass Mode" (DSCAlarmZones) {dscalarm="zone:1:9:zone_bypass_mode"}
+String ZONE9_ALARM_STATUS "Alarm Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:9:zone_alarm_status"}
+String ZONE9_FAULT_STATUS "Fault Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:9:zone_fault_status"}
+String ZONE9_TAMPER_STATUS "Tamper Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:9:zone_tamper_status"}
+Switch ZONE9_IN_ALARM (DSCAlarmZones) {dscalarm="zone:1:9:zone_in_alarm"}
+Switch ZONE9_TAMPER (DSCAlarmZones) {dscalarm="zone:1:9:zone_tamper"}
+Switch ZONE9_FAULT (DSCAlarmZones) {dscalarm="zone:1:9:zone_fault"}
+Switch ZONE9_TRIPPED (DSCAlarmZones) {dscalarm="zone:1:9:zone_tripped"}
+
+Contact ZONE10_GENERAL_STATUS "Deck Door Sensor" (DSCAlarmZones, FamilyRoom) {dscalarm="zone:1:10:zone_general_status"}
+Number ZONE10_BYPASS_MODE "Deck Door Sensor Bypass Mode" (DSCAlarmZones) {dscalarm="zone:1:10:zone_bypass_mode"}
+String ZONE10_ALARM_STATUS "Alarm Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:10:zone_alarm_status"}
+String ZONE10_FAULT_STATUS "Fault Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:10:zone_fault_status"}
+String ZONE10_TAMPER_STATUS "Tamper Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:10:zone_tamper_status"}
+Switch ZONE10_IN_ALARM (DSCAlarmZones) {dscalarm="zone:1:10:zone_in_alarm"}
+Switch ZONE10_TAMPER (DSCAlarmZones) {dscalarm="zone:1:10:zone_tamper"}
+Switch ZONE10_FAULT (DSCAlarmZones) {dscalarm="zone:1:10:zone_fault"}
+Switch ZONE10_TRIPPED (DSCAlarmZones) {dscalarm="zone:1:10:zone_tripped"}
+
+Contact ZONE11_GENERAL_STATUS "Back Door Sensor" (DSCAlarmZones, UtilityRoom) {dscalarm="zone:1:11:zone_general_status"}
+Number ZONE11_BYPASS_MODE "Back Door Sensor Bypass Mode" (DSCAlarmZones) {dscalarm="zone:1:11:zone_bypass_mode"}
+String ZONE11_ALARM_STATUS "Alarm Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:11:zone_alarm_status"}
+String ZONE11_FAULT_STATUS "Fault Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:11:zone_fault_status"}
+String ZONE11_TAMPER_STATUS "Tamper Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:11:zone_tamper_status"}
+Switch ZONE11_IN_ALARM (DSCAlarmZones) {dscalarm="zone:1:11:zone_in_alarm"}
+Switch ZONE11_TAMPER (DSCAlarmZones) {dscalarm="zone:1:11:zone_tamper"}
+Switch ZONE11_FAULT (DSCAlarmZones) {dscalarm="zone:1:11:zone_fault"}
+Switch ZONE11_TRIPPED (DSCAlarmZones) {dscalarm="zone:1:11:zone_tripped"}
+
+Contact ZONE12_GENERAL_STATUS "Side Door Sensor" (DSCAlarmZones, SideFoyer) {dscalarm="zone:1:12:zone_general_status"}
+Number ZONE12_BYPASS_MODE "Side Door Sensor Bypass Mode" (DSCAlarmZones) {dscalarm="zone:1:12:zone_bypass_mode"}
+String ZONE12_ALARM_STATUS "Alarm Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:12:zone_alarm_status"}
+String ZONE12_FAULT_STATUS "Fault Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:12:zone_fault_status"}
+String ZONE12_TAMPER_STATUS "Tamper Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:12:zone_tamper_status"}
+Switch ZONE12_IN_ALARM (DSCAlarmZones) {dscalarm="zone:1:12:zone_in_alarm"}
+Switch ZONE12_TAMPER (DSCAlarmZones) {dscalarm="zone:1:12:zone_tamper"}
+Switch ZONE12_FAULT (DSCAlarmZones) {dscalarm="zone:1:12:zone_fault"}
+Switch ZONE12_TRIPPED (DSCAlarmZones) {dscalarm="zone:1:12:zone_tripped"}
+
+Contact ZONE13_GENERAL_STATUS "Garage Door 1 Sensor" (DSCAlarmZones, Garage) {dscalarm="zone:1:13:zone_general_status"}
+Number ZONE13_BYPASS_MODE "Garage Door 1 Sensor Bypass Mode" (DSCAlarmZones) {dscalarm="zone:1:13:zone_bypass_mode"}
+String ZONE13_ALARM_STATUS "Alarm Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:13:zone_alarm_status"}
+String ZONE13_FAULT_STATUS "Fault Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:13:zone_fault_status"}
+String ZONE13_TAMPER_STATUS "Tamper Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:13:zone_tamper_status"}
+Switch ZONE13_IN_ALARM (DSCAlarmZones) {dscalarm="zone:1:13:zone_in_alarm"}
+Switch ZONE13_TAMPER (DSCAlarmZones) {dscalarm="zone:1:13:zone_tamper"}
+Switch ZONE13_FAULT (DSCAlarmZones) {dscalarm="zone:1:13:zone_fault"}
+Switch ZONE13_TRIPPED (DSCAlarmZones) {dscalarm="zone:1:13:zone_tripped"}
+
+Contact ZONE14_GENERAL_STATUS "Garage Door 2 Sensor" (DSCAlarmZones, Garage) {dscalarm="zone:1:14:zone_general_status"}
+Number ZONE14_BYPASS_MODE "Garage Door 2 Sensor Bypass Mode" (DSCAlarmZones) {dscalarm="zone:1:14:zone_bypass_mode"}
+String ZONE14_ALARM_STATUS "Alarm Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:14:zone_alarm_status"}
+String ZONE14_FAULT_STATUS "Fault Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:14:zone_fault_status"}
+String ZONE14_TAMPER_STATUS "Tamper Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:14:zone_tamper_status"}
+Switch ZONE14_IN_ALARM (DSCAlarmZones) {dscalarm="zone:1:14:zone_in_alarm"}
+Switch ZONE14_TAMPER (DSCAlarmZones) {dscalarm="zone:1:14:zone_tamper"}
+Switch ZONE14_FAULT (DSCAlarmZones) {dscalarm="zone:1:14:zone_fault"}
+Switch ZONE14_TRIPPED (DSCAlarmZones) {dscalarm="zone:1:14:zone_tripped"}
+
+Contact ZONE15_GENERAL_STATUS "Garage Window Sensor" (DSCAlarmZones, Garage) {dscalarm="zone:1:15:zone_general_status"}
+Number ZONE15_BYPASS_MODE "Garage Window Sensor Bypass Mode" (DSCAlarmZones) {dscalarm="zone:1:15:zone_bypass_mode"}
+String ZONE15_ALARM_STATUS "Alarm Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:15:zone_alarm_status"}
+String ZONE15_FAULT_STATUS "Fault Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:15:zone_fault_status"}
+String ZONE15_TAMPER_STATUS "Tamper Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:15:zone_tamper_status"}
+Switch ZONE15_IN_ALARM (DSCAlarmZones) {dscalarm="zone:1:15:zone_in_alarm"}
+Switch ZONE15_TAMPER (DSCAlarmZones) {dscalarm="zone:1:15:zone_tamper"}
+Switch ZONE15_FAULT (DSCAlarmZones) {dscalarm="zone:1:15:zone_fault"}
+Switch ZONE15_TRIPPED (DSCAlarmZones) {dscalarm="zone:1:15:zone_tripped"}
+
+Contact ZONE25_GENERAL_STATUS "Utility Room Motion Sensor" (DSCAlarmZones,  UtilityRoom) {dscalarm="zone:1:25:zone_general_status"}
+Number ZONE25_BYPASS_MODE "Utility Room Motion Sensor Bypass Mode" (DSCAlarmZones) {dscalarm="zone:1:25:zone_bypass_mode"}
+String ZONE25_ALARM_STATUS "Alarm Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:25:zone_alarm_status"}
+String ZONE25_FAULT_STATUS "Fault Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:25:zone_fault_status"}
+String ZONE25_TAMPER_STATUS "Tamper Status : [%s]" (DSCAlarmZones) {dscalarm="zone:1:25:zone_tamper_status"}
+Switch ZONE25_IN_ALARM (DSCAlarmZones) {dscalarm="zone:1:25:zone_in_alarm"}
+Switch ZONE25_TAMPER (DSCAlarmZones) {dscalarm="zone:1:25:zone_tamper"}
+Switch ZONE25_FAULT (DSCAlarmZones) {dscalarm="zone:1:25:zone_fault"}
+Switch ZONE25_TRIPPED (DSCAlarmZones) {dscalarm="zone:1:25:zone_tripped"}
+
+/* DSC Alarm Keypad Items */
+Number KEYPAD_READY_LED "Ready LED Status: [%d]" (DSCAlarmKeypads) {dscalarm="keypad:keypad_ready_led"}
+Number KEYPAD_ARMED_LED "Armed LED Status: [%d]" (DSCAlarmKeypads) {dscalarm="keypad:keypad_armed_led"}
+Number KEYPAD_MEMORY_LED "Memory LED Status: [%d]" (DSCAlarmKeypads) {dscalarm="keypad:keypad_memory_led"}
+Number KEYPAD_BYPASS_LED "Bypass LED Status: [%d]" (DSCAlarmKeypads) {dscalarm="keypad:keypad_bypass_led"}
+Number KEYPAD_TROUBLE_LED "Trouble LED Status: [%d]" (DSCAlarmKeypads) {dscalarm="keypad:keypad_trouble_led"}
+Number KEYPAD_PROGRAM_LED "Program LED Status: [%d]" (DSCAlarmKeypads) {dscalarm="keypad:keypad_program_led"}
+Number KEYPAD_FIRE_LED "Fire LED Status: [%d]" (DSCAlarmKeypads) {dscalarm="keypad:keypad_fire_led"}
+Number KEYPAD_BACKLIGHT_LED "Backlight LED Status: [%d]" (DSCAlarmKeypads) {dscalarm="keypad:keypad_backlight_led"}
+Number KEYPAD_AC_LED "AC LED Status: [%d]" (DSCAlarmKeypads) {dscalarm="keypad:keypad_ac_led"}

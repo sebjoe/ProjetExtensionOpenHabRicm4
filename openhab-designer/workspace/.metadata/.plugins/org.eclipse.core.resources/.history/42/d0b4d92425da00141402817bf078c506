@@ -1,0 +1,15 @@
+import org.openhab.core.library.types.*
+import org.openhab.core.persistence.*
+import org.openhab.model.script.actions.*
+
+
+rule "Actualisation"
+when 		
+	Time cron "0/5 * * * * ?"
+	
+then
+	
+	
+	DSCUnknown
+	logInfo("PersistenceDemo2", "You did not press this button during the last 5 seconds!")
+end 
